@@ -2713,8 +2713,8 @@ Aplikasi berbasis web dan android merupakan salah satu penerapan teknologi
  Aplikasi berbasis web dan android memberikan kemudahan akses dan layanan
  data yang dapat dijangkau dimana saja dan kapan saja selama miliki akses
  internet.
- Laravel merupakan salah satu framework PHP yang sangat powerfull dan banyak
- digunakan saat ini.
+ CodeIgniter merupakan salah satu framework PHP yang sangat powerfull dan
+ banyak digunakan saat ini.
  Dengan menggunakan framework pembuatan aplikasi web dan webservice menjadi
  lebih mudah dan terstruktur.
 \end_layout
@@ -2759,23 +2759,99 @@ Judul
 \end_layout
 
 \begin_layout Section
-Ruang Lingkup
+Batasan Masalah
+\end_layout
+
+\begin_layout Standard
+Berdasarkan uraian pada Latar Belakang Masalah, maka permasalahan yang akan
+ dikaji adalah bagaimana membuat Aplikasi Depok Smart City pada ponsel dengan
+ sistem operasi Android serta membuat website untuk manajemennya.
+ Pembuatan aplikasi android menggunakan 
+\shape italic
+Integrated Development Environment (IDE) 
+\shape default
+Android Studio 2.3 dengan bahasa pemrograman JAVA dan XML.
+ Sedangkan untuk pembuatan 
+\shape italic
+Application Programming Interface (API)
+\shape default
+ dan websitenya menggunakan bahasa pemrograman PHP dengan framework CodeIgniter
+ 3 dan database MySQL.
+ Apikasi ini menampilkan laporan yang dikirim oleh masyarakat dalam bentuk
+ 
+\shape italic
+timeline
+\shape default
+ dan juga 
+\shape italic
+maps
+\shape default
+.
+ Pengguna dapat mengirimkan laporannya dengan mengirimkan deksripsi, gambar,
+ dan lokasinya.
+ Selain itu pengguna juga dapat melaporkan jika ada laporan yang tidak valid
+ dan mengomentari laporan yang telah dikirim.
 \end_layout
 
 \begin_layout Section
 Tujuan
 \end_layout
 
-\begin_layout Section
-Teori Dasar
-\end_layout
-
-\begin_layout Section
-Kerangka Pemikiran
+\begin_layout Standard
+Tujuan dari pembuatan aplikasi ini adalah untuk mempermudah masyarakat depok
+ dalam melaporkan masalah ke pemerintah kota depok.
+ Selain itu dengan dibuatnya aplikasi ini semoga pelayanan pemerintah kota
+ depok dapat lebih cepat dalam mengatasi setiap keluhan masyarakat dan mewujudka
+n Depok 
+\shape italic
+Smart City
+\shape default
+.
 \end_layout
 
 \begin_layout Section
 Metode Penelitian
+\end_layout
+
+\begin_layout Standard
+Pembuatan aplikasi di lakukan menggunakan tahap–tahap 
+\shape italic
+System Development Life Cycle
+\shape default
+ (SDLC) model 
+\shape italic
+waterfall
+\shape default
+ dan tebagi menjadi empat tahap.
+ Tahap pertama adalah analisis kebutuhan, yaitu menguraikan tentang layanan
+ public mengunakan 
+\shape italic
+smartphone
+\shape default
+, kebutuhan user dalam mengunakan aplikasi, dan menguraikan perangkat lunak
+ (
+\shape italic
+software
+\shape default
+) maupun perangkat keras (
+\shape italic
+hardware
+\shape default
+) dalam membangun aplikasi.
+ Tahap kedua adalah proses perancangan, dimana mencakup perancangan antarmuka
+ dan alur program menggunakan diagram UML.
+ Tahap ketiga adalah tahap implementasi, pada tahap ini dilakukan pembangunan
+ aplikasi menggunakan 
+\shape italic
+Integrated Development Environment
+\shape default
+ (IDE) Android Studio dengan bahasa pemrograman JAVA dan XML.
+ Tahap terakhir adalah tahap ujicoba aplikasi, dimana aplikasi akan di ujicoba
+ mengunakan
+\shape italic
+ Android Virtual Device
+\shape default
+ (AVD) dan pengujian berdasarkan kuesioner pengguna.
 \end_layout
 
 \begin_layout Section
@@ -2783,54 +2859,335 @@ Sistematika Penulisan
 \end_layout
 
 \begin_layout Standard
-Persatuan Indonesia dengna ini saya menyatkan bahwa sayan semua yang ada
- di dunia ini fana adanya.Bintang Belanda Arjen Robben dan Nigel de Jong
- mengkritik kepemimpinan wasit asal Inggris Howard Webb setelah tim Oranje
- dipaksa menyerah oleh tendangan Andrés Iniesta saat perpanjangan waktu
- final Piala Dunia 2010.
+Penulisan ini terdiri dari lima bagian yaitu pendahuluan, landasan teori,
+ analisis, perancangan dan implementasi, hasil dan pembahasan, serta penutup.
+ Pendahuluan berisi latar belakang pemilihan topik, ruang lingkup, tujuan
+ yang ingin dicapai, metode penelitian dan sistematika penulisan.
+ Landasan teori berisi uraian tentang 
+\shape italic
+Smart City
+\shape default
+, SDLC, Sistem Operasi Android, Android Studio, Java, XML, API, PHP, CodeIgniter
+, MySQL, JSON, dan diagram UML.
+ Analisa, Perancangan dan implemtasi berisi tentang perancangan antarmuka,
+ perancangan alur program menggunakan diagram UML, dan pembangunan aplikasi.
+ Hasil dan pembahasan berisi mengenai hasil pembuatan aplikasi.
+ Penutup berisi kesimpulan dan saran.
+\end_layout
+
+\begin_layout Chapter
+TINJAUAN PUSTAKA
+\end_layout
+
+\begin_layout Section
+Smart City
+\end_layout
+
+\begin_layout Section
+SDLC
+\end_layout
+
+\begin_layout Section
+Android
 \end_layout
 
 \begin_layout Standard
-Spanyol untuk pertama kalinya mengangkat trofi Piala Dunia setelah melalui
- laga final yang ketat.
- Selama pertandingan di Soccer City tersebut, wasit mengeluarkan tujuh kartu
- kuning dan mengeluarkan pemain Belanda, John Heitinga, dari lapangan saat
- perpanjangan waktu karena mendapat dua kali kartu kuning.
+Android merupakan sistem operasi berbasis Linux yang dirancang untuk perangkat
+ dengan layar sentuh seperti 
+\shape italic
+smartphone
+\shape default
+ dan komputer tablet.
+ Pada awalnya Android dikembangkan oleh Android, Inc., dan dibeli oleh Google
+ pada tahun 2005.
+ Android bersifat sumber terbuka (open-source), yaitu lisensi perizinan
+ yang memungkinkan perangkat lunak tersebut dimodifikasi secara bebas.
+\end_layout
+
+\begin_layout Subsection
+Versi Android
 \end_layout
 
 \begin_layout Standard
-Tendangan Iniesta mengakhiri perlawanan Belanda dan membuat negeri kincir
- angin tersebut menelan kekalahan ketiga dalam tiga kali penampilan di final
- Piala Dunia.
- Robben sempat marah karena pada tujuh menit terakhir, wasit tidak menghukum
- Carles Puyol dengan kartu merah karena berupaya menghalangi langkah gelandang
- lincah Belanda itu yang akan menjebol gawang Iker Casillas.
+Versi Android diawali dengan dirilisnya Android beta pada bulan november
+ 2007.
+ Setelah itu pada april 2009 versi Android dikembangkan dengan nama kode
+ yang dinamai berdasarkan makanan pencuci mulu dan panganan manis.
+ Masing-masing versi dirilis sesuai urutan alfabet, yakni Cupcake (1.5),
+ Donut (1.6), Éclair (2.0-2.1), Froyo (2.2–2.2.3), Gingerbread (2.3–2.3.7), Honeycomb
+ (3.0–3.2.6), Ice Cream Sandwich (4.0–4.0.4), Jelly Bean (4.1–4.3), KitKat (4.4+),
+ Lollipop (5.0+), Marshmallow (6.0), dan yang terbaru Nougat (7.0).
+ Berikut ini adalah fitur-fitur pada Android ICS sampai Nougat.
+\end_layout
+
+\begin_layout Enumerate
+Android Ice Cream Sandwitch (4.0) Android Ice Cream Sandwich atau biasa disebut
+ ICS dirilis pada bulan Oktober 2011.
+ Android ICS tampil dengan UI yang sangat modern dan lebih user friendly
+ dibandingkan versi sebelumnya.
+ Tampilan visual dengan nama “holo” ini dibuat lebih rapi, desain minimalis,
+ dan font standar baru dengan nama “Roboto”.
+ Selain itu Android ICS juga memperkenalkan web browser baru, manajemen
+ kontak yang dapat di sinkronkan dengan jejaring sosial, kemampuan untuk
+ mengakses kamera dan pemutar musik pada saat berada di layar yang terkunci
+ (lockscreen), serta fitur face recognition unlocking untuk membuka layar
+ yang terkunci.
+\end_layout
+
+\begin_layout Enumerate
+Android Jelly Bean (4.1) Android Jelly Bean diluncurkan pada saat acara Google
+ I/O Developer yang diselenggarakan pada 27 Juni 2012.
+ Android Jelly Bean berfokus pada perbaikan antarmuka pada perangkat pengguna,
+ dengan penambahaan pada fitur Google Search Experience yaitu asisten digital
+ dengan nama Google Now.
+ Selain itu Android Jelly Bean juga mendukung multi user untuk tablet, widget
+ di lockscreen, dan screen saver.
+\end_layout
+
+\begin_layout Enumerate
+Android KitKat (4.4) Android KitKat dirilis secara resmi pada tanggal 3 September
+ 2013 dengan code name “Key Lime Pie”.
+ Fokus utama Android KitKat adalah mengoptimalkan performa sistem operasi
+ pada perangkat kelas menengah dengan sumberdaya yang terbatas.
+ Selain itu Android KitKat juga dirancang untuk menjadi lebih efisien dalam
+ pengelolaan memori, sehingga aplikasi yang berjalan tidak menghabiskan
+ terlalu banyak memori.
+\end_layout
+
+\begin_layout Enumerate
+Android Lollipop (5.0) Android Lolipop dirilis secara resmi pada tanggal
+ 28 Oktober 2014.
+ Salah satu perubahan yang paling menonjol pada versi ini adalah desain
+ tampilan antarmuka pengguna baru dengan konsep material design.
+ Selain itu terdapat peningkatan juga pada notifikasi yang dapat diakses
+ pada saat layar terkunci.
+ Google juga merubah platform internalnya dengan Android Runtime yang secara
+ remsi menggantikan dalvik untuk peningkatan performa aplikasi, dan optimasi
+ dalam penggunaan baterai.
+\end_layout
+
+\begin_layout Enumerate
+Android Marshmallow (6.0) Android Marsmallow diperkenalkan pada saat acara
+ Google I/O yang diselenggarakan pada bulan mei 2015 dengan codename “Android
+ M” dan dirilis secara resmi pada tanggal 5 Oktober 2015.
+ Fokus utama pada Android Marshmallow adalah peningkatan antarmuka dari
+ versi Android Lollipop.
+ Selain itu pada versi ini juga diperkenalkannya model permissions architecture
+ baru, manajemen sistem pada sumber daya yang dapat mengurangi pemakaian
+ energi pada aplikasi yang berjalan dibalik layar, dan secara alami mendukung
+ fingerprint recognition.
+\end_layout
+
+\begin_layout Enumerate
+Android Nougat (7.0) Android Nougat merupakan versi selanjutnya pada sistem
+ operasi Android dan saat ini baru terdapat versi developer yang dirilis
+ pada tanggal 9 maret 2016.
+ Pada versi ini terdapat split screen multi window mode, yang membuat user
+ dapat membuka beberapa aplikasi dalam satu layar.
+\end_layout
+
+\begin_layout Subsection
+Android Studio
 \end_layout
 
 \begin_layout Standard
-Masalah driver di Linux ini, disebabkan faktor teknis dan non teknis yang
- menimbulkan beberapa kondisi.
- Kondisi pertama yaitu tidak disediakannya driver oleh pembuat perangkat
- keras, tetapi informasi perangkat keras tersebut tersedia secara terbuka.
- Sehingga memungkinkan pihak lain menulis driver untuk Linux.
- Kondisi kedua, tidak disediakannya driver oleh pihak produsen, dan juga
- tidak disediakan informasi secara terbuka tentang perangkat keras tersebut.
- Sehingga sulit untuk menulis drivernya.
- Kondisi ketiga, adanya perjanjian rahasia antara perangkat keras dengan
- vendor perangkat lunak.
- Sehingga pembuat perangkat keras tersebut tidak bersedia membuat driver
- dan mencegah informasi perangkat kerasnya digunakan untuk menulis driver
- untuk sistem operasi lain.
- Kondisi keempat, banyak perangkat keras yang “mengurangi” komponen dengan
- menjalankan fungsinya melalui program yang dijalankan di sistem opersi
- tertentu.
- Jadi alih-alih menggunakan hardware, fungsi itu dilakukan oleh suatu software
- yang dijalankan di sistem operasi khusus.
- Pada kondisi ini perangkat keras memang didisain untuk tidak portabel dengan
- sistem operasi lainnya.
- Pada kondisi perangkat keras yang drivernya hanya dapat berjalan di MS
- Windows saja, sebetulnya pengguna berada pada pihak yang lemah.
- Karena masa depan pilihannya ditentukan oleh vendor tersebut.
+Android Studio merupakan 
+\shape italic
+Integrated Development Environment (IDE)
+\shape default
+ resmi untuk pengembangan aplikasi Android.
+ Android Studio diumumkan pada 16 Mei 2013 pada saat acara Google I/O dan
+ tersedia secara gratis dibawah lisensi Apache.
+ Android Studio menyediakan semua hal yang dibutuhkan untuk membuat aplikasi
+ Android diantaranya, IntelliJ IDE+ Android Studio plugin, Android SDK Tools,
+ Android Platform-tools, dan Android Emulator.
+\end_layout
+
+\begin_layout Subsection
+Android Software Development Kit
+\end_layout
+
+\begin_layout Standard
+Android 
+\shape italic
+Software Development Kit (SDK)
+\shape default
+ adalah tools yang diperlukan untuk mengembangkan aplikasi pada platform
+ Android.
+ Android SDK terdiri dari debugger, libraries, handset emulator, dokumentasi,
+ contoh kode dan tutorial.
+ Android SDK berfungsi sebagai alat bantu dan API untuk mulai mengembangkan
+ aplikasi pada platform Android menggunakan bahasa pemrograman Java.
+\end_layout
+
+\begin_layout Subsection
+Android Virtual Devices
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Android Virtual Devices (AVD)
+\shape default
+ merupakan emulator perangkat Android pada komputer.
+ AVD dapat digunakan untuk menjalakan aplikasi yang sudah dibuat kedalam
+ berbagai jenis perangkat sesuai model yang di pilih.
+ Dengan menggunakan AVD 
+\shape italic
+programmer
+\shape default
+ dapat mengembangkan dan mencoba aplikasi Android tanpa harus menggunakan
+ perangkat Android sebenarnya.
+\end_layout
+
+\begin_layout Section
+Java
+\end_layout
+
+\begin_layout Standard
+Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer
+ termasuk ponsel.
+ Java awalnya dibuat oleh James Gosling saat masih bergabung di Sun Microsystems
+, akan tetapi saat ini merupakan bagian dari Oracle.
+ Bahasa Java banyak mengadopsi sintaksis yang terdapat pada C dan C++ namun
+ dengan sintaksis model objek yang lebih sederhana serta dukungan runtime
+ atas bawah yang minimal.
+ Aplikasi-aplikasi berbasis Java umumnya dikompilasi ke dalam p-code (bytecode)
+ dan dapat dijalankan pada berbagai 
+\shape italic
+Java Virtual Machine
+\shape default
+ (JVM).
+ Java merupakan bahasa pemrograman yang bersifat umum atau non-spesifik
+ 
+\shape italic
+(general purpose)
+\shape default
+, dan secara khusus didisain untuk memanfaatkan dependensi implementasi
+ seminimal mungkin.
+ Karena fungsionalitasnya yang memungkinkan aplikasi Java mampu berjalan
+ di beberapa platform sistem operasi yang berbeda.
+\end_layout
+
+\begin_layout Subsection
+Java Development Kit
+\end_layout
+
+\begin_layout Standard
+Java Development Kit (JDK) merupakan perangkat lunak yang digunakan untuk
+ melakukan proses komplikasi dari kode Java ke bytecode yang dapat dimengerti
+ dan dapat dijalankan oleh Java Runtime Environtment (JRE).
+ JDK berisi sekumpulan command line tool untuk menciptakan program Java.
+ JDK wajib terinstal pada komputer yang akan melakukan proses pembuatan
+ aplikasi berbasis Java, namum tidak wajib terinstal diperangkat yang akan
+ menjalankan aplikasi yang dibangun dengan Java.
+ 
+\end_layout
+
+\begin_layout Subsection
+Java Runtime Environment
+\end_layout
+
+\begin_layout Standard
+Java Development Kit (JDK) merupakan perangkat lunak yang digunakan untuk
+ melakukan proses komplikasi dari kode Java ke bytecode yang dapat dimengerti
+ dan dapat dijalankan oleh Java Runtime Environtment (JRE).
+ JDK berisi sekumpulan command line tool untuk menciptakan program Java.
+ JDK wajib terinstal pada komputer yang akan melakukan proses pembuatan
+ aplikasi berbasis Java, namum tidak wajib terinstal diperangkat yang akan
+ menjalankan aplikasi yang dibangun dengan Java.
+\end_layout
+
+\begin_layout Subsection
+Java Virtual Machine
+\end_layout
+
+\begin_layout Standard
+Java Runtime Environment (JRE) adalah perangkat lunak yang digunakan untuk
+ menajalankan aplikasi yang dibuat dengan menggunakan bahasa pemrograman
+ Java.
+ Versi JRE harus sama atau lebih tinggi dengan JDK yang digunakan untuk
+ membuat aplikasi Java agar aplikasi tersebut dapat berjalan dengan baik.
+\end_layout
+
+\begin_layout Subsection
+Pemrograman Java pada Android
+\end_layout
+
+\begin_layout Standard
+Java Virtual Machine (JVM) adalah inti dari Bahasa Java.
+ JVM berfungsi untuk mengubah bahasa program yang kawan buat menjadi bahasa
+ mesin, Karena bahasa Java adalah bahasa pemrograman tingkat tinggi atau
+ mendekati bahasa manusia maka dibutuhkan pengkonversi ke bahasa mesin.
+ JVM mampu menerjemahkan program yang kawan buat ke hampir semua platform.
+ “write once, run everywhere”.
+\end_layout
+
+\begin_layout Enumerate
+Package, merupakan perintah Java yang digunakan untuk memberitahukan bahwa
+ suatu class adalah anggota dari package, sedangkan nama package dapat berupa
+ susunan direktori tempat dimana file class disimpan atau nama folder.
+ Penulisan nama package dalam Java biasanya diawali dengan huruf kecil.
+ Bentuk umum : Package <namapackage>.<subpackage>.<subsubpackage>;
+\end_layout
+
+\begin_layout Subsection
+Object Oriented Programming pada Java
+\end_layout
+
+\begin_layout Standard
+Konsep Object Oriented Programming (OOP) atau pemrograman berbasis objek
+ pada Java terdiri dari 3 yaitu :
+\end_layout
+
+\begin_layout Enumerate
+Inheritance, merupakan pewarisan yang artinya sebuah class dapat mewarisi
+ atribut dan method dari class lain.
+ untuk mendeklarasikan suatu class sebagai subclass dilakukan dengan cara
+ menambahkan kata kunci extends setelah deklarasi nama class, kemudian diikuti
+ dengan nama parent class-nya.
+ Kata kunci extends tersebut memberitahu kompiler Java bahwa kita ingin
+ melakukan perluasan class.
+\end_layout
+
+\begin_layout Enumerate
+Polymorphism, Suatu aksi yang memungkinkan pemrogram menyampaikan pesan
+ tertentu keluar dari hirarki obyeknya, dimana obyek yang berbeda memberikan
+ tanggapan atau respon terhadap pesan yang sama sesuai dengan sifat masing-masin
+g obyek.
+\end_layout
+
+\begin_layout Enumerate
+Encapsulation adalah pembungkus, pembungkus disini dimaksudkan untuk menjaga
+ suatu proses program agar tidak dapat diakses secara sembarangan atau di
+ intervensi oleh program lain.
+ Dalam OOP Encapsulation di wujudkan dalam bentuk class.
+ Seperti yang telah dijalaskan sebelumnya dalam sebuah class terdapat property
+ dan method yang memiliki hak akses tertentu terhadap environment atau lingkunga
+nnya, hak akses ini biasa disebut Access Modifier, yang terdiri dari private,
+ protected, dan public.
+ 
+\end_layout
+
+\begin_layout Section
+Extensible Markup Language
+\end_layout
+
+\begin_layout Standard
+Extensible Markup Language (XML) adalah suatu bahasa yang digunakan untuk
+ mendeskripsikan dan memanipulasi dokumen secara terstruktur.
+ Secara teknis XML didefinisikan sebagai suatu bahasa meta-markup yang menyediak
+an format tertentu untuk dokumen-dokumen yang mempunyai data terstruktur.
+ XML bukanlah suatu bahasa pemrograman, melainkan sintaks yang digunakan
+ untuk menjelaskan bahasa markup lain sehingga dinamakan meta language.
+\end_layout
+
+\begin_layout Standard
+XML untuk Android pada dasarnya berbeda dengan XML secara umum.
+ Pada XML untuk Android, beberapa nama tag telah didefinisikan oleh Android
+ SDK, sedangkan XML pada umumnya penulisan nama tag dapat dilakukan sesuai
+ keinginan.
+ Berikut ini adalah beberapa tag XML pada Android yang sering digunakan.
 \end_layout
 
 \begin_layout Standard
@@ -2840,14 +3197,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Daftar Pendapatan Restribusi Parkir
+Tag XML pada Android
 \end_layout
 
 \end_inset
@@ -2856,223 +3209,20 @@ Daftar Pendapatan Restribusi Parkir
 \end_layout
 
 \begin_layout Plain Layout
-\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="right" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Daerah kekuasan
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pendapatan (Rp.)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Keterangan
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pasar Klender
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.000.000,-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pasar Jatinegara
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
- 4.000.000,-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Senayan
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-20.000.000,-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Paling tinggi
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pasar Cipanas
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.000.000,-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Harus jaga rahasia
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tentu saja hal itu tidak menyurutkan pemrogram dan vendor Open Source untuk
- menyediakan driver.
- Ada beberapa pendekatan yang digunakan sebagai solusi kebutuhan driver
- ini.
- Pendekatan pertama adalah kondisi ideal yaitu produsen perangkat keras
- menyediakan driver untuk Linux dan driver tersebut berlisensi Open Source.
- Saat ini sudah mulai banyak perangkat keras yang sudah menyertakan driver
- untuk Linux, misal beberapa printer, kartu jaringan.
- Pendekatan kedua yang juga masih ideal, yaitu walau tak ada driver dari
- produsen tersebut, tapi produsen itu membuka informasi tentang perangkat
- keras dan membolehkan pihak lain menuliskan drivernya.
- Bahkan saat ini para programmer Linux membuka kesempatan bagi para produsen
- perangkat keras yang tidak ingin menulis drivernya di Linux, tapi bersedia
- membuka informasi tentang perangkat kerasnya, maka developer Linux akan
- menuliskan driver untuk vendor tersebut.
- Mudah-mudahan dengan langkah ini makin banyak vendor perangkat keras yang
- menyediakan driver di Linux.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Daftar Merek
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
+<lyxtabular version="3" rows="8" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No
+
+\series bold
+No.
 \end_layout
 
 \end_inset
@@ -3081,25 +3231,20 @@ No
 \begin_inset Text
 
 \begin_layout Plain Layout
-Title
+
+\series bold
+Bentuk Tag
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Descripstion
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Results
+\series bold
+Fungsi
 \end_layout
 
 \end_inset
@@ -3119,25 +3264,16 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+<TextView>
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Membuat teks statis
 \end_layout
 
 \end_inset
@@ -3157,7 +3293,27 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+<EditText>
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membuat kolom input berupa teks
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
 \end_layout
 
 \end_inset
@@ -3166,16 +3322,103 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+<ImageView>
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+Menampilkan gambar
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<Button>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membuat tombol
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<LinearLayout>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membuat tata letak agar lurus secara horizontal / vertical
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<RelativeLayout>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membuat tata letak yang dapat diletakan secara bebas
 \end_layout
 
 \end_inset
@@ -3186,7 +3429,7 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
+7.
 \end_layout
 
 \end_inset
@@ -3195,25 +3438,16 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+<ScrollView>
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Membuat scroll ketika isinya melebihi kapasitas layar
 \end_layout
 
 \end_inset
@@ -3231,80 +3465,275 @@ Results
 
 \end_layout
 
-\begin_layout Standard
-Pendekatan lainnya adalah kondisi non ideal tapi tetap masih memungkinkan
- pengguna memanfaatkan perangkat keras yang bersangkutan.
- Misal kondisi di mana produsen perangkat keras menyediaikan driver, tetapi
- driver tersebut bersifat proprietary (hanya kode biner saja, misal pada
- NVIDIA).
- Solusi lain adalah firmware di driver Windows dapat “diserap” dan digunakan
- sebagai firmware di driver Linux.
- Misal pada beberapa kartu jaringan Broadcom.
- Solusi jenis lain yang dapat dilakukan adalah dengan menggunakan program
- ndiswrapper, maka driver di MS Windows dapat digunakan oleh pengguna Linux..
- Pada kondisi produsen tidak memberikan informasi perangkat keras tersebut
- secara terbuka, maka developer Linux perlu melakukan clean room reverse
- engineering, untuk menebak-nebak cara kerja perangkat keras, dan dapat
- dibuat driver yang bersifat Open Source.
- Hal ini dilakukan pada beberapa driver wireless di Linux.
+\begin_layout Section
+Application Programming Interface
 \end_layout
 
 \begin_layout Standard
-Bila pemerintah Indonesia berkeinginan melakukan optimasi pemanfaat perangkat
- keras, maka perlu dipertimbangkan peraturan procurement perangkat keras
- yang harus dapat menggunakan sistem operasi lebih beragam..Artinya setiap
- perangkat keras yang dibeli pemerintah harus dapat dijalankan pada lebih
- dari 1 jenis sistem operasi, sistem operasi proprietary dan sistem operasi
- open source.
- Hal ini akan memperlebar pilihan di masa mendatang.
- Untuk melakukan langkah itu ada beberapa kemungkinan peraturan yang dapat
- ditempuh.
- Kemungkinan pertama adalah menerapkan regulasi yang mewajibkan semua perangkat
- keras yang dijual di Indonesia harus disertai dengan driver untuk sistem
- operasi yang lebih dari 1 jenis (misal Linux, FreeBSD, atau Mac).
- Tetapi tentu saja regulasi seperti di atas sangat sulit diterapkan, karena
- melibatkan vendor perangkat keras, penjual, dan juga produsen perangkat
- keras.
- Sehingga takutnya hanya menjadi hitam di atas putih saja, atau para vendor
- berteriak merasa mendapat beban tambahan.
+Application Programming Interface (API) adalah sebuah bahasa dan format
+ pesan yang digunakan oleh program aplikasi untuk berkomunikasi dengan system
+ operasi atau program pengendalian lainnnya seperti Database Management
+ System (DBMS) atau komunikasi protokol.
+ API diimplementasikan dengan menulis fungsi panggilan atau sintaks dalam
+ program, yang menyediakan sarana yang diperlukan untuk meminta layanan
+ program.
+ Pada dasarnya, program API mendefinisikan cara yang tepat bagi pengembang
+ untuk meminta layanan dari program itu.
+ Sebuah API dapat digunakan untuk mengijinkan aplikasi lain atau pihak ketiga
+ dan para pengembang untuk memanfaatkan fasilitas-fasilitas pada API tersebut.
+ Beberapa API yang banyak digunakan oleh pengembang diantaranya adalah Google
+ API, Twitter API, dan Facebook API.
+\end_layout
+
+\begin_layout Section
+JavaScript Object Notation
 \end_layout
 
 \begin_layout Standard
-Kemungkinan lainnya adalah mewajibkan bahwa setiap perangkat keras yang
- dibeli pemerintah harus kompatibel dengan lebih dari 1 jenis sistem operasi.
- Untuk menerapkan regulasi seperti ini, relatif lebih mudah.
- Pemerintah dapat mengeluarkan daftar perangkat keras yang kompatibel dengan
- lebih dari 1 jenis sistem operasi.
- Atau dapat juga perangkat keras yang ingin digunakan pemerintah telah melalui
- pengujian kompatibilitas oleh suatu pusat pengujian kompatibilitas yang
- independen.
- Semua informasi ini dikumpulkan pada suatu Pusat Kompatibilitas dan Interoperab
-ilitas.
- Dengan adanya pusat ini, maka publik termasuk perusahaan yang turut serta
- dalam proyek pengadaan perangkat keras dapat memperoleh informasi tentang
- kompatibilitas perangkat keras yang diajukannya.
- Pusat kompatibilitas ini dapat saja dikelola oleh tim IGOS dengan bekerja
- sama misal dengan vendor ataupun pihak lainnya.
- Di samping menyediakan infomasi, pusat ini juga secara aktif menguji kompatibil
-itas perangkat keras yang ada di pasaran.
+JavaScript Object Notation (JSON) adalah format pertukaran data yang ringan,
+ mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat
+ (generate) oleh komputer.
+ Format ini dibuat berdasarkan bagian dari bahasa pemrograman JavaScript,
+ Standar ECMA-262 Edisi ke-3 - Desember 1999.
+ Walaupun JSON didasarkan pada subset bahasa pemrograman JavaScript, JSON
+ merupakan format teks yang tidak bergantung pada suatu bahasa.
+ Kode untuk pengolahan dan pembuatan data JSON telah tersedia untuk banyak
+ jenis bahasa pemrograman.
+ Sehingga memudahkan para pengembang untuk melakukan pertukaran data pada
+ aplikasinya.
 \end_layout
 
 \begin_layout Standard
-Di samping adanya informasi tentang perangkat keras mana saja yang kompatibel,
- pemerintah melalaui pusat ini perlu juga menyediakan suatu repository yang
- berisi driver-driver tambahan, serta informasi tentang bagaimana trick
- untuk mengatasi masalah driver di sistem operasi Open Source tersebut.
- Biasanya pengguna Linux memecahkan masalah driver dengan cara mencari-cari
- informasi di Internet.
- Seringkali orang lain telah membuat pemecahan akan masalah driver tersebut,
- dan pengguna cukup mengunduh dan menginstalnya.
- Masalah terbesar mengatasi problem driver adalah mengetahui informasi yang
- tersebar tersebut.
- Dengan cara menyediakan repository berupa knowledge base yang memecahkan
- masalah driver itu, maka akan sangat membantu proses pemanfaatan Open Source
- di kalangan pemerintah.
- Tentu saja knowledge base ini harus secara rutin diupdate oleh pengelolanya.
+JSON menggunakan bentuk atau struktur sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Object adalah sepasang nama atau nilai yang tidak terurutkan.
+ Object dimulai dengan { (kurung kurawal buka) dan diakhiri dengan } (kurung
+ kurawal tutup).
+ Setiap nama diikuti dengan : (titik dua) dan setiap pasangan nama atau
+ nilai dipisahkan oleh , (koma).
+\end_layout
+
+\begin_layout Enumerate
+Array adalah kumpulan nilai yang terurutkan.
+ Array dimulai dengan [ (kurung kotak buka) dan diakhiri dengan ] (kurung
+ kotak tutup), setiap nilai dipisahkan oleh , (koma).
+\end_layout
+
+\begin_layout Enumerate
+Value dapat berupa sebuah string dalam tanda kutip ganda, angka, boolean,
+ null, atau sebuah object maupun array.
+\end_layout
+
+\begin_layout Enumerate
+String adalah kumpulan dari nol atau lebih karakter Unicode, yang dibungkus
+ dengan tanda kutip ganda.
+ Di dalam string dapat digunakan backslash escapes "
+\backslash
+" untuk membentuk karakter khusus.
+ Sebuah karakter mewakili karakter tunggal pada string.
+\end_layout
+
+\begin_layout Enumerate
+Angka pada JSON sangat mirip dengan angka di C atau Java, tetapi untuk format
+ oktal dan heksadesimal tidak digunakan.
+\end_layout
+
+\begin_layout Standard
+Contoh data dalam format JSON :
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+"status": true,
+\end_layout
+
+\begin_layout Plain Layout
+
+"message": "Loggin success",
+\end_layout
+
+\begin_layout Plain Layout
+
+"data": {
+\end_layout
+
+\begin_layout Plain Layout
+
+	"id": "3",
+\end_layout
+
+\begin_layout Plain Layout
+
+	"email": "agus@gmail.com",
+\end_layout
+
+\begin_layout Plain Layout
+
+	"name": "Agus Rianto",
+\end_layout
+
+\begin_layout Plain Layout
+
+	"avatar": "avatar_agus.jpg",
+\end_layout
+
+\begin_layout Plain Layout
+
+	"role": "2",
+\end_layout
+
+\begin_layout Plain Layout
+
+	"token": "043e5fda03e0a1000f6cb279bf7e034" 
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PHP
+\end_layout
+
+\begin_layout Section
+CodeIgniter
+\end_layout
+
+\begin_layout Section
+MySQL
+\end_layout
+
+\begin_layout Section
+HTML
+\end_layout
+
+\begin_layout Section
+CSS
+\end_layout
+
+\begin_layout Section
+UML
+\end_layout
+
+\begin_layout Standard
+Unified Modeling Language (UML) adalah himpunan struktur dan teknik untuk
+ pemodelan desain program berorientasi objek (OOP) serta aplikasinya.
+ UML merupakan sebuah bahasa yang telah menjadi standar dalam industri visualisa
+si, meracang, dan mendokumentasikan sistem perangkat lunak.
+ Seperti bahasa pada umumnya, UML juga mendefinisikan notasi dan semantik.
+ Notasi UML merupakan sekumpulan bentuk khusus untuk menggabarkan berbagai
+ diagram, dan memiliki setiap bentuk memiliki makna tertentu.
+ Sedangkan semantik mendefinisikan bagaimana bentuk tersebut dapat dikombinasika
+n.
+ 
+\end_layout
+
+\begin_layout Chapter
+ANALISIS DAN PERANCANGAN
+\end_layout
+
+\begin_layout Section
+Perencanaan Aplikasi
+\end_layout
+
+\begin_layout Standard
+Pada penulisan ini, penulis merencanakan membuat aplikasi pelaporan untuk
+ menyampaikan aspirasi masyarakat kota depok ke pemerintah setempat.
+ Sebelum memulai pembuatan hal pertama yang harus dilakukan adalah menentukan
+ platform dan bahasa pemrograman yang digunakan.
+ Penulis memilih platform Android dengan bahasa pemrograman Java, dan websitenya
+ menggunakan bahasa pemrograman PHP.
+ Penulis memilih Android karena pada saat ini Android merupakan sistem operasi
+ pada ponsel dengan jumlah pengguna terbanyak.
+ Adapun fitur-fitur yang ingin dibuat pada aplikasi Android yaitu pembuatan
+ laporan, fitur komentar pada laporan yang dibuat pengguna, tampilan laporan
+ berdasarkan timeline, tampilan laporan pada peta, dan fitur melaporankan
+ postingan bermasalah.
+\end_layout
+
+\begin_layout Section
+Analisis Kebutuhan
+\end_layout
+
+\begin_layout Standard
+Dalam pembuatan aplikasi dibutuhkan teks editor Sublime untuk membuat API
+ dan Website dengan menggunakan bahasa pemrograman PHP dan Android Studio
+ sebagai Integrated Development Environment (IDE) untuk membuat aplikasi
+ pada perangkat Android dengan menggunakan bahasa pemrograman JAVA.
+ Perangkat yang dibutuhkan untuk menjalankan Android Studio diantaranya
+ :
+\end_layout
+
+\begin_layout Itemize
+Sistem operasi Windows / Linux / Mac OS X
+\end_layout
+
+\begin_layout Itemize
+Memory RAM 2GB atau 8GB untuk performa maksimal
+\end_layout
+
+\begin_layout Itemize
+Ruang kosong untuk penyimpanan 4GB
+\end_layout
+
+\begin_layout Itemize
+Minimal resolusi layar 1280 x 800
+\end_layout
+
+\begin_layout Itemize
+Java Development Kit (JDK) 8
+\end_layout
+
+\begin_layout Section
+Tahap Perancangan
+\end_layout
+
+\begin_layout Standard
+Pada perancangan aplikasi dibuat menggunakan diagram Unified Modelling Language
+ (UML).
+ Jenis diagram yang akan digunakan untuk merancang aplikasi ini yaitu, Use
+ Case Diagram, Activity Diagram, dan Class Diagram.
+ Selain dengan UML juga dilakukan perancangan database dan antarmuka penggunanya.
+\end_layout
+
+\begin_layout Subsection
+Use Case Diagram
+\end_layout
+
+\begin_layout Standard
+Use Case Diagram pada aplikasi ini menggambarkan interkasi yang dapat dilakukan
+ oleh pengguna dengan aplikasi.
+ Diagram Use Case ini mendefinisikan apa yang dilakukan oleh sistem dan
+ elemennnya, bukan bagaimana sistem dan elemennnya saling berinteraksi.
+ Rancangan Use Case Diagram dapat dilihat pada gambar 3.1.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -3312,7 +3741,209 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename LogoGunadarma.jpg
+	filename usecase.jpg
+	width 8cm
+	height 8cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use Case Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 3.1 menggambarkan interaksi antara pengguna dengan sistem, dimana
+ terdapat 2 aktor yaitu pengguna dan admin.
+ Sebelum menggunakan aplikasi pengguna wajib membuat akun terlebih dahulu
+ kemudian login dengan menggunakan akun yang telah dibuat.
+ Setelah itu pengguna dapat membuat laporan, melihat laporan yang telah
+ masuk, menghapus laporan yang telah dibuatnya, dan mereport laporan yang
+ bermasalah.
+ Sedangkan admin dapat melihat laporan yang masuk, menghapus laporan yang
+ telah dibuat, melihat komentar pengguna, melihat laporan yang di report
+ oleh pengguna, memproses laporan yang masuk, dan mengubah status laporan.
+\end_layout
+
+\begin_layout Subsection
+Activity Diagram
+\end_layout
+
+\begin_layout Standard
+Diagram Activity menggambarkan berbagai aktivitas untuk dapat mengirim laporan
+ sampai laporan di selesaikan.
+ Rancangan Activity Diagram dapat dilihat pada gambar 3.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename activity.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Activity Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 3.2 menggambarkan alur aktivitas pada aplikasi Depok Smart City.
+ Pada saat pertama kali dibuka atau 
+\shape italic
+initial state
+\shape default
+ pengguna akan diarahkan ke halaman login.
+ Jika pengguna sudah memiliki akun pengguna langsung dapat melakukan login,
+ jika tidak maka pengguna dapat membuat akun kemudian akan di verifikasi
+ datanya oleh aplikasi.
+ Setelah berhasil login maka pengguna dapat membuat laporan, kemudian laporan
+ akan di verifikasi oleh aplikasi, jika laporan sudah di isi dengan lengkap
+ maka pengguna dapat melihat laporannya di timeline maupun di peta.
+ Setelah itu laporan akan di proses oleh admin jika sudah selesai maka status
+ laporan dapat dirubah kemudian berakhir di 
+\shape italic
+final state
+\shape default
+.
+\end_layout
+
+\begin_layout Subsection
+Database
+\end_layout
+
+\begin_layout Standard
+Struktur database menggambarkan kumpulan data yang disimpan secara sistematis
+ di dalam komputer yang dapat diolah atau dimanipulasi menggunakan perangkat
+ lunak (program aplikasi) untuk menghasilkan informasi.
+ Pada database menggambarkan relasi-relasi antar table, dimana terdapat
+ 5 table yaitu user, category, post, report, dan comment.
+ Pada table user terdapat data-data mengenai pengguna serta role, status,
+ dan token pengguna.
+ Pada table category berisi mengenai jenis-jenis laporan yang dapat dikirimkan
+ oleh pengguna.
+ Pada table post, berisi mengenai detail laporan pengguna berikut id kategori
+ dan id user yang mengirim laporan.
+ Pada table comment berisi mengenai komentar-komentar yang dikirim oleh
+ pengguna terhadap suatu laporan.
+ Pada table report berisi mengenai id laporan yang direport oleh pengguna
+ dan pesannya.
+ Rancangan database dapat dilihat pada gambar 3.3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename database.png
+	width 10cm
+	height 10cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Rancangan Tampilan
+\end_layout
+
+\begin_layout Standard
+Interface (antarmuka) merupakan sarana berinteraksi antara pengguna dengan
+ aplikasi.
+ Antarmuka merupakan komponen yang berhubungan seacara langsung dengan penguna.
+ Pembuatan antarmuka harus dibuat menarik dan memudahkan pengguna dalam
+ berinteraksi dengan aplikasi.
+ Rancangan antarmuka pada aplikasi Depok Smart City terdiri dari racangan
+ halaman login.
+\end_layout
+
+\begin_layout Subsection
+Halaman Login
+\end_layout
+
+\begin_layout Standard
+Halaman login merupakan halaman yang digunakan pengguna untuk masuk ke dalam
+ aplikasi dengan akun yang sudah di buatnya.
+ Pada halaman login gambar statis, kolom input email dan password, tombol
+ login, dan tombol daftar.
+ Rancangan tampilan login dapat dilihat pada gambar 3.4.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename login.jpg
 	width 4cm
 
 \end_inset
@@ -3324,7 +3955,377 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Logo Gunadarma
+Rancangan Halaman Login
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Daftar
+\end_layout
+
+\begin_layout Standard
+Halaman daftar merupakan halaman yang digunakan pengguna untuk membuat akun.
+ Pada halaman daftar terdapat kolom input email, password, nama, nomer telepon,
+ tombol daftar, dan tombol login.
+ Rancangan tampilan daftar dapat dilihat pada gambar 3.5.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename daftar.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Halaman Daftar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Timeline Laporan
+\end_layout
+
+\begin_layout Standard
+Halaman timeline laporan merupakan halaman yang pertama kali dilihat pengguna
+ ketika sudah berhasil login.
+ Pada tampilan ini, laporan ditampilkan dalam bentuk timeline berdasarkan
+ urutan waktu dari yang terbaru hingga yang terlama.
+ Rancangan tampilan timeline laporan dapat dilihat pada gambar 3.6.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename home.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Timeline Laporan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Peta Laporan
+\end_layout
+
+\begin_layout Standard
+Halaman Peta Laporan merupakan halaman yang digunakan untuk melihat laporan
+ di dalam peta.
+ Pada tampilan ini laporan ditampilkan dalam bentuk marker sesuai lokasi
+ laporan.
+ Rancangan tampilan peta laporan dapat dilihat pada gambar 3.7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename peta.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Peta Laporan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Berita
+\end_layout
+
+\begin_layout Standard
+Halaman berita merupakan halaman yang berisi mengenai berita terbaru.
+ Pada halaman ini ditampilkan berita yang dibuat oleh Pemerintah Kota Depok.
+ Rancangan tampilan berita dapat dilihat pada gambar 3.8.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename berita.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Berita
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Profile Pengguna
+\end_layout
+
+\begin_layout Standard
+Halaman profile pengguna merupakan halaman yang berisi mengenai informasi
+ pengguna serta laporan yang telah dikirimnya.
+ Rancangan tampilan profile pengguna dapat dilihat pada gambar 3.9.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename profile pengguna.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Halaman Login
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Halaman Web Administrator
+\end_layout
+
+\begin_layout Standard
+Halaman Web Administrator merupakan halaman yang digunakan untuk mengolah
+ laporan yang masuk ke dalam system.
+ Pada tampilan admin terdapat logo, menu, konten, dan footer.
+ Rancangan tampilan web administrator dapat dilihat pada gambar 3.10.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename admin.jpg
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rancangan Halaman Web Administrator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+PEMBAHASAN DAN IMPLEMENTASI
+\end_layout
+
+\begin_layout Section
+Pembuatan Aplikasi
+\end_layout
+
+\begin_layout Standard
+Depok Smart City merupakan aplikasi berbasis client server yang membutuhkan
+ koneksi internet untuk pertukaran data.
+ Pada sisi server terdapat website yang digunakan manajemen data dan 
+\shape italic
+Application Programming Interface
+\shape default
+ (API) yang digunakan untuk mengirim dan menerima data dari client.
+ Pembuatan website dan API menggunakan bahasa pemrograman PHP dengan framework
+ CodeIgniter 3.
+ Sedangkan pada sisi client terdapat aplikasi berbasis Android yang dibuat
+ menggunakan bahasa pemrograman Java dengan 
+\shape italic
+Integrated Development Environment
+\shape default
+ (IDE) Android Studio versi 2.3.
+\end_layout
+
+\begin_layout Subsection
+Pembuatan Website dan API
+\end_layout
+
+\begin_layout Standard
+Pembuatan Website dan API (
+\shape italic
+Application Programming Interface
+\shape default
+) menggunakan framework CodeIgniter 3.
+ Website dan API dibuat menggunakan framework agar kode program lebih terstruktu
+r sehingga memudahkan dalam pembuatannnya.
+ CodeIgniter merupakan salah satu framework PHP yang cukup mudah digunakan,
+ dalam instalasinya cukup mendownload dari website resmi CodeIgniter kemudian
+ ekstrak hasilnya pada direkotori server.
+ Dalam pembuatan Website dan API menggunakan Apache pada LAMPP sebagai webserver
+nya.
+ Direktori webserver pada LAMPP terdapat di 
+\begin_inset Quotes eld
+\end_inset
+
+/opt/lampp/htdocs
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ci.png
+	lyxscale 50
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Struktur Direktori Framework CodeIgniter
 \end_layout
 
 \end_inset
@@ -3338,64 +4339,432 @@ Logo Gunadarma
 \end_layout
 
 \begin_layout Standard
-Langkah lainnya yang perlu dilakukan pemerintah adalah menyediakan dana
- riset dan pengembangan untuk penulisan driver perangkat keras di Linux.
- Sehingga dapat dibuat driver untuk perangkat keras yang belum ada driver
- untuk sistem operasi Open Source.
- Termapat suk juga pemerintah damelakukan pendekatan ke vendor sehingga
- mereka bersedia membuka informasi perangkat keras dan memudahkan programmer
- Open Source untuk membuat drivernya.
- Dengan cara ini pemerintah tidak saja memanfaatkan Open Source, tapi secara
- aktif membantu perkembangan Open Source.Tentu saja semua itu dapat berjalan,
- bila pemerintah Indonesia berniat menyelamatkan investasi perangkat kerasnya.
- Negara tetangga Malaysia melalui MAMPU, mencoba menelurkan kebijakan yang
- memihak ke Open Source, dengan tujuan meningkatkan penggunaan perangkat
- lunak, meningkatkan interoperabilitas, dan dengan adanya source code mencoba
- meningkatkan dukungan dan perawatan dan menghindari lock-in dari satu vendor
- serta meninrgkatkan keamanan.
- Tentu saja menurunkan Total Cost of Ownership (TCO) disamping mendorong
- kebanggan pada produk sendiri.
- Brazil, tanpa malu-malu menunjukkan dengan jelas keberpihakan pada Open
- Source dalam proses procurement di badan pemerintah.
- Misal memprioritaskan penggunaan perangkat lunak Open Source, mengutamakan
- pengadopsian standard terbuka termasuk untuk jaminan interoperabilitas,
- dan membatasi penggunaan teknologi proprietary.
- Di samping itu di dalam pengadaan perangkat keras yang diutamaan adalah
- pernangkat keras yang mendukung platform open source.
- Apakah Indonesia yang termasuk golongan Large Emerging Economies (E7) di
- samping China, India, Brazil, Rusia, Turki, Meksiko, juga berani menempuh
- langkah yang sama melalui IGOS-nya ? Ataukah takut dikira memihak ke salah
- pihak saja ?
+Setelah melakukan ekstraksi framework tahap selanjutnya adalah merubah konfigura
+si pada config.php yang terletak di direktori 
+\begin_inset Quotes eld
+\end_inset
+
+application/config/config.php
+\begin_inset Quotes erd
+\end_inset
+
+, kemudian rubah base_url menjadi 
+\begin_inset Quotes eld
+\end_inset
+
+$config['base_url'] = 'http://localhost/dsc/'; 
+\begin_inset Quotes eld
+\end_inset
+
+.
+ $config['base_url'] harus di isi dengan alamat path dari instalasi codeIgniter,
+ sehingga pada saat aplikasi akses, maka akan diarahkan ke alamat tersebut.
+ Setelah itu lakukan konfigurasi database yang terletak di direktori 
+\begin_inset Quotes eld
+\end_inset
+
+application/config/database.php
+\begin_inset Quotes erd
+\end_inset
+
+, hal ini digunakan pada saat kita perlu untuk membuat koneksi ke database.
 \end_layout
 
 \begin_layout Standard
-Pada dasarnya penerapan penggunaan Open Source yang dibarengi regulasi pemanfaat
-an perangkat keras akan mendorong pelaksanaan procurement yang mendukung
- transparansi, obyektif, dengan adanya justifikasi pilihan serta tidak melakukan
- diskriminasi.
- Jadi keputusan procurement yang mewajibkan kompatibilitas dengan Open Source,
- bukanlah berpihak pada vendor Open Source, tapi lebih kepada keinginan
- mengamankan investasi yang dengan dana masyarakat.
- Sustainibilitas sistem merupakan suatu hal yang penting dalam kesinambungan
- layanan eGovernment.
- Menjaga agar perangkat keras selalu dapat digunakan seoptimal mungkin adalah
- salah satu faktor penting menjaga sustanaibilitas sistem.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename konfig-database.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi Database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(Pernah terbit di majalah Warta eGov)
+Pada konfigurasi database hostname diisi dengan alamat host database, pada
+ kolom username dan password diisi dengan username dan password untuk mengakses
+ database tersebut, dan pada database diisi dengan nama database.
+ Setelah itu kita dapat mengkases 
+\begin_inset Quotes eld
+\end_inset
+
+http://localhost/dsc/
+\begin_inset Quotes erd
+\end_inset
+
+ sebagai alamat website pada localserver, maka tampilannya awalnya dalam
+ dilihat pada gambar 4.3.
 \end_layout
 
-\begin_layout Chapter
-TINJAUAN PUSTAKA
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ci-awal.png
+	lyxscale 50
+	width 8cm
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Chapter
-ANALISIS, PERANCANGAN dan IMPLEMENTASI
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Awal CodeIgniter
 \end_layout
 
-\begin_layout Chapter
-HASIL DAN PEMBAHASAN
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Pembuatan Aplikasi Android
+\end_layout
+
+\begin_layout Standard
+Pembuatan Aplikasi Android yang digunakan sebagai client menggunakan IDE
+ Android Studio 2.3 sebagai Integrated Development Environment (IDE).
+ Tahap pertama yang harus dilakukan saat membuat aplikasi adalah membuat
+ project baru yang dapat dilakukan dengan memilih 
+\shape italic
+
+\begin_inset Quotes eld
+\end_inset
+
+Start a new Android Studio project
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-1.png
+	lyxscale 50
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pembuatan Project Baru
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah melakukan pembuatan projek baru, selanjutnya adalah tahap konfigurasi
+ nama dan paket aplikasi.
+ Application name merupakan nama dari aplikasi, sedangkan company domain
+ dapat diisi dengan alamat domain perusahaan, jika tidak ada dapat diisi
+ dengan app saja.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-2.png
+	lyxscale 50
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi Project
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahap selanjutnya adalah penentuan 
+\shape italic
+minimum requirement
+\shape default
+ untuk menjalankan aplikasi.
+ Pada tahap ini beri centang pada 
+\shape italic
+Phone and Tablet
+\shape default
+ kemudian minimum SDK pilih API 19 : Android 4.4 Kitkat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-3.png
+	lyxscale 50
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi Minimum Requirement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah itu adalah tahap pemilihan layout yang akan digunakan pada aplikasi.
+ Pada tahap ini pilih layout Button Navigation Activity sebagai layout untuk
+ halaman utama.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-4.png
+	lyxscale 50
+	width 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi Layout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahap terakhir adalah tahap penyesuaian activity, pada tahap ini terdapat
+ kolom Activity Name yang digunakan untuk menentukan nama activity, kemudian
+ Layout Name untuk menentukan nama layout, dan Title untuk menentukan judul
+ acitivity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-5.png
+	lyxscale 50
+	width 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+KonfigurasiActivity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah selesai menkonfigurasi project maka tampilan awal project dapat
+ dilihat pada gambar 4.9.
+ Pada tampilan ini terdapat struktur 
+\shape italic
+project
+\shape default
+ android, 
+\shape italic
+text editor
+\shape default
+ untuk menulis kode program, dan 
+\shape italic
+preview
+\shape default
+ untuk melihat tampilan layout.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-6.png
+	lyxscale 50
+	width 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi Layout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Uji Coba
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Uji Coba Emulator
+\end_layout
+
+\begin_layout Subsection
+Uji Coba Perangkat
 \end_layout
 
 \begin_layout Chapter
@@ -3415,7 +4784,11 @@ Berdasarkan hasil penelitian, maka ditunjukkan bahwa algortima singular
  Implementasi library CUDA digunakan untuk pemrograman dengan menggunakan
  bahasa pemrograman C++.
  Hasil percobaan menunjukkan bahwa speed-up algoritma paralel terhadap algoritma
- singular rata-rata sebesar ....
+ singular rata-rata
+\end_layout
+
+\begin_layout Standard
+sebesar ....
  terhadap tingkat pertambahan jumlah data sebesar 
 \begin_inset Formula $10^{n}$
 \end_inset
