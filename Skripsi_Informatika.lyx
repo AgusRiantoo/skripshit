@@ -13,8 +13,8 @@
   {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\Huge}
 
 %%-------------
-\newcommand{\Judul}{Aplikasi Layanan Aduan Masyarakat ke Pemerintah Kota Depok Berbasis Web dan Android }
-\newcommand{\JudulInggris}{Application Public Complaints Services to the Government of Depok City Web and Android based}
+\newcommand{\Judul}{Aplikasi Layanan Aduan Masyarakat ke Pemerintah Kota Depok Berbasis Web dan Android}
+\newcommand{\JudulInggris}{Application Public Complaints Services to the Government of Depok City based on Web and Android}
 \newcommand{\Penulis}{Agus Rianto}
 \newcommand{\NPM}{50413378}
 \newcommand{\NIRM}{NIRM}
@@ -2670,65 +2670,106 @@ Latar Belakang Masalah
 \end_layout
 
 \begin_layout Standard
-
+Kota merupakan pusat peradaban dan pusat kehidupan manusia.
+ Keberadaan kota terus mengalami perubahan dan mengalami perkembangan yang
+ signifikan serta membawa pengaruh besar dalam pola hidup manusia (Suhono
+ 
 \shape italic
-Smart City
+et
 \shape default
- adalah konsep kota cerdas yang dirancang guna membantu berbagai hal kegiatan
- masyarakat, terutama dalam upaya mengelola sumber daya yang ada dengan
- efisien, serta memberikan kemudahan mengakses informasi kepada masyarakat,
- hingga untuk mengantisipasi kejadian yang tak terduga sebelumnya.
- Sebuah kota dikatakan 
+ al, 2015 : 2).
+ Pertumbuhan jumlah penduduk yang terus meningkat setiap tahunnya membuat
+ pengelolaan kota menjadi kompleks.
+ Kondisi ini menuntut Pemerintah Daerah untuk dapat memaksimalkan potensi
+ sumber daya yang dimiliki serta meminimalisir kendala atau masalah yang
+ dihadapi.
+ Konsep kota cerdas (
 \shape italic
-Smart
+smart city
 \shape default
- apabila kota tersebut benar-benar dapat mengetahui keadaan kota di dalamnya,
- memahami permasalahan tersebut secara lebih mendalam, hingga mampu melakukan
- aksi terhadap permasalahan tersebut.
- Pada saat ini, beberapa kota di Indonesia sudah menerapkan 
-\shape italic
-Smart City 
-\shape default
-diantaranya Jakarta, Bandung, dan Surabaya.
+) merupakan salah satu terobosan yang dapat membuat pengelolaaan kota menjadi
+ lebih dinamis.
+ Penerapan konsep kota cerdas membutuhkan peran aktif dan partisipasi masyarakat
+ dalam pengelolaan kota.
+ Interaksi dua arah antara pemerintah dengan masyarakat diharapkan mampu
+ mengatasi setiap permasalahan di kota tersebut, sehingga nantinya kota
+ akan menjadi tempat yang nyaman untuk ditinggali.
 \end_layout
 
 \begin_layout Standard
-Kota Depok merupakan salah satu kota di Indonesia yang memiliki visi menjadi
- kota yang Unggul, Nyaman dan Religius dan misi untuk meningkatkan kualitas
- pelayanan publik serta pembangunan infrastruktur dan ruang publik yang
- merata.
+Perkembangan teknologi informasi dan komunikasi merupakan aspek penting
+ menuju penerapan konsep 
+\shape italic
+smart city
+\shape default
+ yang nantinya diharapkan dapat memperbaiki pelayanan pemerintah kota untuk
+ menghasilkan proses kerja yang lebih efektif dan efisien.
+ Pemanfaatan teknologi dalam sistem pelayanan pemerintahan dapat mempercepat
+ proses interaksi antara pemerintah dengan masyarakat.
+ Salah satu teknologi yang telah berkembang dengan pesat yaitu telepon genggam
+ (
+\shape italic
+handphone)
+\shape default
+.
+ Perangkat telepon genggan yang tadinya hanya dapat digunakan untuk menelpon
+ dan sms, kini sudah dilengkapi dengan kamera, gps, media player, serta
+ akses internet.
+ Penggunaan 
+\shape italic
+handphone 
+\shape default
+sebagai sarana berinteraksi antara pemerintah dengan masyarakat dapat mempercepa
+t dan mempermudah dalam berkomunikasi.
+\end_layout
+
+\begin_layout Standard
+Depok merupakan salah satu Kota di Indonesia yang terletak di Provinsi Jawa
+ Barat.
+ Depok bermula dari sebuah Kecamatan yang berada di lingkungan Kewedanaan
+ (Pembantu Bupati) wilayah Parung Kabupaten Bogor, kemudian pada tahun 1976
+ perumahan mulai dibangun oleh Perum Perumnas dan pengembang swasta.
+ Kota Depok selain merupakan Pusat Pemerintahan yang berbatasan langsung
+ dengan Wilayah Daerah Khusus Ibu Kota Jakarta juga merupakan wilayah penyangga
+ Ibu Kota Negara yang diarahkan untuk kota pemukiman , kota pendidikan,
+ pusat pelayanan perdagangan dan jasa, kota pariwisata dan sebagai kota
+ resapan air.
+ Visi kota Depok adalah menjadi kota yang Unggul, Nyaman dan Religius serta
+ memiliki misi untuk meningkatkan kualitas pelayanan publik, pembangunan
+ infrastruktur dan ruang publik yang merata.
  Untuk dapat mewujudkan pembangunan dan perawatan infrastruktur yang merata
- maka diperlukan peran serta masyarakat untuk dapat melapor dan memberikan
- kritik serta saran ke pemerintah setempat.
- Pada saat ini Kota Depok belum memiliki sarana yang dapat digunakan oleh
+ maka diperlukan peran serta masyarakat untuk dapat menyampaikan aspirasinya
+ dan memberikan kritik serta saran ke pemerintah setempat.
+ 
+\end_layout
+
+\begin_layout Standard
+Pada saat ini, Kota Depok belum memiliki sarana yang dapat digunakan oleh
  masyarakat untuk dapat menyampaikan aspirasinya.
- Sehingga untuk dapat mewujudkan visi dan misi pemerintah kota depok diperlukan
- suatu wadah yang dapat digunakan untuk meningkatkan kualitas pelayanannya
- ke masyarakat depok.
-\end_layout
-
-\begin_layout Standard
-Aplikasi berbasis web dan android merupakan salah satu penerapan teknologi
- informasi yang bagus.
- Aplikasi berbasis web dan android memberikan kemudahan akses dan layanan
- data yang dapat dijangkau dimana saja dan kapan saja selama miliki akses
- internet.
- CodeIgniter merupakan salah satu framework PHP yang sangat powerfull dan
+ Sehingga untuk dapat mewujudkan visi dan misinya maka diperlukan suatu
+ wadah yang dapat digunakan untuk meningkatkan kualitas pelayanannya.
+ Aplikasi berbasis web dan 
+\shape italic
+mobile
+\shape default
+ merupakan salah satu penerapan teknologi informasi yang bagus.
+ Aplikasi berbasis 
+\shape italic
+web
+\shape default
+ dan 
+\shape italic
+mobile
+\shape default
+ memberikan kemudahan akses dan layanan data yang dapat dijangkau dimana
+ saja dan kapan saja selama miliki akses internet.
+ Android merupakan salah satu sistem operasi pada telepon genggam yang paling
  banyak digunakan saat ini.
- Dengan menggunakan framework pembuatan aplikasi web dan webservice menjadi
- lebih mudah dan terstruktur.
-\end_layout
-
-\begin_layout Standard
-Android merupakan salah satu sistem operasi pada ponsel yang paling banyak
- digunakan saat ini.
- Ponsel berbasis android memiliki banyak fitur yang dapat dimanfaatkan diantaran
-ya kamera, internet dan GPS.
+ Telepon genggam berbasis Android memiliki banyak fitur yang dapat dimanfaatkan
+ diantaranya kamera, internet dan GPS.
  Kamera pada ponsel dapat dimanfaatkan untuk memberikan bukti pendukung,
  Internet dapat digunakan untuk mengirim informasi dimana saja dan kapan
- saja, dan GPS dapat digunakan untuk menentukan lokasi penggunanya.
- Dengan membuat aplikasi berbasis web dan android maka dapat memudahkan
- penggunanya dalam mengakses informasi secara langsung dari ponselnya.
+ saja, dan GPS dapat digunakan untuk menunjukan lokasinya.
 \end_layout
 
 \begin_layout Standard
@@ -2764,20 +2805,43 @@ Batasan Masalah
 
 \begin_layout Standard
 Berdasarkan uraian pada Latar Belakang Masalah, maka permasalahan yang akan
- dikaji adalah bagaimana membuat Aplikasi Depok Smart City pada ponsel dengan
- sistem operasi Android serta membuat website untuk manajemennya.
- Pembuatan aplikasi android menggunakan 
+ dikaji adalah bagaimana membuat Aplikasi pelaporan pada ponsel dengan sistem
+ operasi Android serta membuat website untuk manajemennya.
+ Pembuatan aplikasi Android menggunakan 
 \shape italic
-Integrated Development Environment (IDE) 
+Integrated Development Environment 
 \shape default
-Android Studio 2.3 dengan bahasa pemrograman JAVA dan XML.
- Sedangkan untuk pembuatan 
+(IDE)
 \shape italic
-Application Programming Interface (API)
+ 
 \shape default
- dan websitenya menggunakan bahasa pemrograman PHP dengan framework CodeIgniter
- 3 dan database MySQL.
- Apikasi ini menampilkan laporan yang dikirim oleh masyarakat dalam bentuk
+Android Studio 2.3 dengan bahasa pemrograman 
+\shape italic
+JAVA
+\shape default
+.
+ Sedangkan untuk pembuatan websitenya menggunakan bahasa pemrograman 
+\shape italic
+PHP
+\shape default
+ dengan 
+\shape italic
+Framework
+\shape default
+ 
+\shape italic
+CodeIgniter
+\shape default
+ 3 dan 
+\shape italic
+database
+\shape default
+ 
+\shape italic
+MySQL
+\shape default
+.
+ Aplikasi ini menampilkan laporan yang dikirim oleh masyarakat dalam bentuk
  
 \shape italic
 timeline
@@ -2787,26 +2851,41 @@ timeline
 maps
 \shape default
 .
- Pengguna dapat mengirimkan laporannya dengan mengirimkan deksripsi, gambar,
+ Pengguna dapat mengirimkan laporannya dengan mengirimkan deskripsi, gambar,
  dan lokasinya.
  Selain itu pengguna juga dapat melaporkan jika ada laporan yang tidak valid
  dan mengomentari laporan yang telah dikirim.
+ Pada sisi web administrator terdapat manajemen pengguna, laporan, 
+\shape italic
+feedback
+\shape default
+, kategori, komentar, dan berita.
 \end_layout
 
 \begin_layout Section
-Tujuan
+Tujuan Penelitian
 \end_layout
 
 \begin_layout Standard
-Tujuan dari pembuatan aplikasi ini adalah untuk mempermudah masyarakat depok
- dalam melaporkan masalah ke pemerintah kota depok.
- Selain itu dengan dibuatnya aplikasi ini semoga pelayanan pemerintah kota
- depok dapat lebih cepat dalam mengatasi setiap keluhan masyarakat dan mewujudka
-n Depok 
+Tujuan dari penelitian ini adalah membuat sarana berupa aplikasi berbasis
+ web dan android yang dapat digunakan oleh masyarakat untuk dapat menyampaikan
+ aspirasinya ke Pemerintah Kota Depok.
+ Sarana pelaporan tersebut penulis beri nama Aplikasi SOMAD 
+\begin_inset Quotes eld
+\end_inset
+
+
 \shape italic
-Smart City
+Sosial Media Application for Depok
 \shape default
+
+\begin_inset Quotes erd
+\end_inset
+
 .
+ Dengan dibuatnya aplikasi tersebut diharapkan dapat memudahkan komunikasi
+ antara pemerintah dengan masyarakat setempat, sehingga kualitas pelayanan
+ Pemerintah Kota Depok dapat ditingkatkan menjadi lebih baik.
 \end_layout
 
 \begin_layout Section
@@ -2814,44 +2893,84 @@ Metode Penelitian
 \end_layout
 
 \begin_layout Standard
-Pembuatan aplikasi di lakukan menggunakan tahap–tahap 
-\shape italic
-System Development Life Cycle
-\shape default
- (SDLC) model 
-\shape italic
-waterfall
-\shape default
- dan tebagi menjadi empat tahap.
- Tahap pertama adalah analisis kebutuhan, yaitu menguraikan tentang layanan
- public mengunakan 
-\shape italic
-smartphone
-\shape default
-, kebutuhan user dalam mengunakan aplikasi, dan menguraikan perangkat lunak
- (
+Metode penelitian digunakan untuk mempermudah dalam pembuatan dan penulisan.
+ Metode penelitian yang digunakan dalam pembuatan aplikasi dilakukan dalam
+ beberapa tahap :
+\end_layout
+
+\begin_layout Enumerate
+Perencanaan
+\begin_inset Newline newline
+\end_inset
+
+Pada tahap ini dilakukan perencanaan yang menyangkut langkah-langkah yang
+ dilakukan sebelum aplikasi dibuat.
+ Selain itu juga dilakukan perencanaan fitur-fitur aplikasi yang akan dibuat,
+ bahasa pemrograman, dan perangkat lunak yang digunakan.
+ Tahap perencanaan dimulai dari melakukan studi pustaka, proses pencarian
+ data, bahan, serta referensi yang berkaitan dengan penelitian yang dilakukan.
+\end_layout
+
+\begin_layout Enumerate
+Analisis 
+\begin_inset Newline newline
+\end_inset
+
+Pada tahap ini dilakukan analisis untuk membuat aplikasi, yang meliputi
+ analisis kebutuhan perangkat lunak (
 \shape italic
 software
 \shape default
-) maupun perangkat keras (
+) dan perangkat lunak (
 \shape italic
 hardware
 \shape default
-) dalam membangun aplikasi.
- Tahap kedua adalah proses perancangan, dimana mencakup perancangan antarmuka
- dan alur program menggunakan diagram UML.
- Tahap ketiga adalah tahap implementasi, pada tahap ini dilakukan pembangunan
- aplikasi menggunakan 
+).
+ Selain itu juga dilakukan analisis data-data yang dibutuhkan berkaitan
+ dengan aplikasi, serta penelitian serupa yang pernah dilakukan oleh orang
+ lain.
+\end_layout
+
+\begin_layout Enumerate
+Perancangan
+\begin_inset Newline newline
+\end_inset
+
+Pada tahap ini dilakukan perancangan aplikasi berdasarkan hasil analisis.
+ Perancangan aplikasi dibuat mulai dari pembuatan diagaram 
 \shape italic
-Integrated Development Environment
+Unified Modeling Language
 \shape default
- (IDE) Android Studio dengan bahasa pemrograman JAVA dan XML.
- Tahap terakhir adalah tahap ujicoba aplikasi, dimana aplikasi akan di ujicoba
- mengunakan
+ (UML), perancangan 
 \shape italic
- Android Virtual Device
+database
 \shape default
- (AVD) dan pengujian berdasarkan kuesioner pengguna.
+, dan perancangan antarmuka pengguna.
+\end_layout
+
+\begin_layout Enumerate
+Implementasi
+\begin_inset Newline newline
+\end_inset
+
+Pada tahap ini dilakukan pengimplementasian hasil perancangan menjadi kode
+ program (
+\shape italic
+coding
+\shape default
+) sehingga dapat menghasilkan sebuah aplikasi.
+\end_layout
+
+\begin_layout Enumerate
+Uji Coba
+\begin_inset Newline newline
+\end_inset
+
+Aplikasi yang telah dibuat akan di uji coba mengunakan metode 
+\shape italic
+blackbox testing, 
+\shape default
+dan dilakukan ujicoba kepada pengguna melalui kuesioner.
 \end_layout
 
 \begin_layout Section
@@ -2859,20 +2978,50 @@ Sistematika Penulisan
 \end_layout
 
 \begin_layout Standard
-Penulisan ini terdiri dari lima bagian yaitu pendahuluan, landasan teori,
- analisis, perancangan dan implementasi, hasil dan pembahasan, serta penutup.
- Pendahuluan berisi latar belakang pemilihan topik, ruang lingkup, tujuan
- yang ingin dicapai, metode penelitian dan sistematika penulisan.
- Landasan teori berisi uraian tentang 
-\shape italic
-Smart City
-\shape default
-, SDLC, Sistem Operasi Android, Android Studio, Java, XML, API, PHP, CodeIgniter
-, MySQL, JSON, dan diagram UML.
- Analisa, Perancangan dan implemtasi berisi tentang perancangan antarmuka,
- perancangan alur program menggunakan diagram UML, dan pembangunan aplikasi.
- Hasil dan pembahasan berisi mengenai hasil pembuatan aplikasi.
- Penutup berisi kesimpulan dan saran.
+Penulisan disusuan ke dalam suatu sistematika, sehingga mudah untuk melihat
+ garis besar penulisan.
+ Sistematika penulisan dibuat dalam lima bab, antara lain :
+\end_layout
+
+\begin_layout Enumerate
+PENDAHULUAN
+\begin_inset Newline newline
+\end_inset
+
+Menjelaskan latar belakang masalah, batasan masalah, tujuan yang ingin dicapai,
+ metode penelitian dan sistematika penulisan.
+\end_layout
+
+\begin_layout Enumerate
+LANDASAN TEORI
+\begin_inset Newline newline
+\end_inset
+
+Menjelaskan tinjauan pustaka yang digunakan untuk penelitian.
+\end_layout
+
+\begin_layout Enumerate
+ANALISIS DAN PERANCANGAN
+\begin_inset Newline newline
+\end_inset
+
+Menjelaskan perencanaan aplikasi, analisis kebutuhan, dan perancangan aplikasi.
+\end_layout
+
+\begin_layout Enumerate
+IMPLEMENTASI DAN UJI COBA
+\begin_inset Newline newline
+\end_inset
+
+Menjelaskan pembuatan dan uji coba aplikasi.
+\end_layout
+
+\begin_layout Enumerate
+PENUTUP
+\begin_inset Newline newline
+\end_inset
+
+Menjelaskan kesimpulan dan saran terhadap pembuatan aplikasi.
 \end_layout
 
 \begin_layout Chapter
@@ -2880,11 +3029,96 @@ TINJAUAN PUSTAKA
 \end_layout
 
 \begin_layout Section
+
+\shape italic
 Smart City
 \end_layout
 
-\begin_layout Section
-SDLC
+\begin_layout Standard
+Konsep kota cerdas atau yang lebih dikenal dengan nama 
+\shape italic
+smart city
+\shape default
+ sangat populer dikembangkan sebagai salah satu konsep penataan kota-kota
+ di dunia beberapa tahun belakangan ini seiring dengan pesatnya perkembangan
+ teknologi.
+ Konsep ini awalnya tumbuh semenjak tahun 1990an dimana koneksi internet
+ mulai mendunia sejak dip erkenalkan pada tahun 1960an.
+ Menurut Allwinkle & Cruickshank (2007), perkembangan internet pada periode
+ tersebutlah yang membuat pelayanan menjadi semakin mudah dengan adanya
+ informasi yang dapat diakses melalui situs yang disediakan pemerintah kota.
+ Meski masih terbatas berupa layanan satu arah dengan hanya informasi yang
+ bersifat statis dan terbatas tentang kebijakan perkotaan, guna lahan, dan
+ perencanaan, namun tidak dipungkiri lagi bahwa ini adalah awal munculnya
+ konsep 
+\shape italic
+smart city
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+Berkembang berikutnya pada awal tahun 2000an dimana perkembangan teknologi
+ informasi yang semakin memudahkan pengguna berkomunikasi dua arah secara
+ 
+\shape italic
+real time
+\shape default
+ dari tempat yang berbeda ditambah dengan infrastruktur yang semakin memadai
+ membuat informasi dari pemerintah kota menjadi semakin interaktif, mudah
+ diakses darimana saja dan kapan saja, serta dengan database yang semakin
+ lengkap seperti transportasi, guna lahan, perencanaan, perpajakan dan lain-lain.
+ Warga kota tidak perlu lagi untuk mendatangi kantor pemerintah kota hanya
+ untuk melihat informasi terkini dari para pengambil kebijakan tentang apa
+ yang sudah direncanakan untuk lahan di sekitar mereka atau hanya untuk
+ melihat pengumuman terbaru.
+ Tonggak berikutnya terjadi pada tahun 2004 dan 2005 dimana konsep 
+\shape italic
+intelcities
+\shape default
+ dengan lebih mengembangkan sistem terintegrasi untuk seluruh layanan perkotaan
+ yang bersifat 
+\shape italic
+online
+\shape default
+ dan berdasar pada situs di internet.
+ Pada tahun inilah dikembangkan transfer ilmu pengetahuan dan pembangunan
+ kapasitas melalui jejaring sosial, jaringan maya, dan lain-lain yang bersifat
+ memberdayakan masyarakat kota secara 
+\shape italic
+online
+\shape default
+ dan terpadu.
+ Berkembangnya 
+\shape italic
+intelcities
+\shape default
+ ini juga sangat erat kaitannya dengan semakin populernya jejaring sosial
+ dunia maya seperti 
+\shape italic
+friendster
+\shape default
+ dan 
+\shape italic
+facebook
+\shape default
+ yang semakin memudahkan m syarakat kota untuk saling mengenal satu dengan
+ lainnya.
+ Baru pada tahun 2005 dan seterusnya, perkembangan 
+\shape italic
+intelcities
+\shape default
+ bergeser menjadi 
+\shape italic
+smartcities
+\shape default
+ dengan lebih menekankan pada level berikutnya dari 
+\shape italic
+intelcities
+\shape default
+ seperti cerdas dalam pertemuan, jejaring, inovasi, kreativitas, modernitas,
+ inklusif dan modal sosial dengan perwujudan terakhir pada komunitas yang
+ berkelanjutan.
 \end_layout
 
 \begin_layout Section
@@ -2900,8 +3134,12 @@ smartphone
  dan komputer tablet.
  Pada awalnya Android dikembangkan oleh Android, Inc., dan dibeli oleh Google
  pada tahun 2005.
- Android bersifat sumber terbuka (open-source), yaitu lisensi perizinan
- yang memungkinkan perangkat lunak tersebut dimodifikasi secara bebas.
+ Android bersifat sumber terbuka (
+\shape italic
+open-source
+\shape default
+), yaitu lisensi perizinan yang memungkinkan perangkat lunak tersebut dimodifika
+si secara bebas.
 \end_layout
 
 \begin_layout Subsection
@@ -2909,8 +3147,11 @@ Versi Android
 \end_layout
 
 \begin_layout Standard
-Versi Android diawali dengan dirilisnya Android beta pada bulan november
- 2007.
+Versi Android diawali dengan dirilisnya Android 
+\shape italic
+beta
+\shape default
+ pada bulan november 2007.
  Setelah itu pada april 2009 versi Android dikembangkan dengan nama kode
  yang dinamai berdasarkan makanan pencuci mulu dan panganan manis.
  Masing-masing versi dirilis sesuai urutan alfabet, yakni Cupcake (1.5),
@@ -3089,20 +3330,6 @@ Java Runtime Environment
 \end_layout
 
 \begin_layout Standard
-Java Development Kit (JDK) merupakan perangkat lunak yang digunakan untuk
- melakukan proses komplikasi dari kode Java ke bytecode yang dapat dimengerti
- dan dapat dijalankan oleh Java Runtime Environtment (JRE).
- JDK berisi sekumpulan command line tool untuk menciptakan program Java.
- JDK wajib terinstal pada komputer yang akan melakukan proses pembuatan
- aplikasi berbasis Java, namum tidak wajib terinstal diperangkat yang akan
- menjalankan aplikasi yang dibangun dengan Java.
-\end_layout
-
-\begin_layout Subsection
-Java Virtual Machine
-\end_layout
-
-\begin_layout Standard
 Java Runtime Environment (JRE) adalah perangkat lunak yang digunakan untuk
  menajalankan aplikasi yang dibuat dengan menggunakan bahasa pemrograman
  Java.
@@ -3111,7 +3338,7 @@ Java Runtime Environment (JRE) adalah perangkat lunak yang digunakan untuk
 \end_layout
 
 \begin_layout Subsection
-Pemrograman Java pada Android
+Java Virtual Machine
 \end_layout
 
 \begin_layout Standard
@@ -3120,15 +3347,11 @@ Java Virtual Machine (JVM) adalah inti dari Bahasa Java.
  mesin, Karena bahasa Java adalah bahasa pemrograman tingkat tinggi atau
  mendekati bahasa manusia maka dibutuhkan pengkonversi ke bahasa mesin.
  JVM mampu menerjemahkan program yang kawan buat ke hampir semua platform.
- “write once, run everywhere”.
-\end_layout
-
-\begin_layout Enumerate
-Package, merupakan perintah Java yang digunakan untuk memberitahukan bahwa
- suatu class adalah anggota dari package, sedangkan nama package dapat berupa
- susunan direktori tempat dimana file class disimpan atau nama folder.
- Penulisan nama package dalam Java biasanya diawali dengan huruf kecil.
- Bentuk umum : Package <namapackage>.<subpackage>.<subsubpackage>;
+ “
+\shape italic
+write once, run everywhere
+\shape default
+”.
 \end_layout
 
 \begin_layout Subsection
@@ -3169,6 +3392,419 @@ nnya, hak akses ini biasa disebut Access Modifier, yang terdiri dari private,
  
 \end_layout
 
+\begin_layout Subsection
+Pemrograman Java pada Android
+\end_layout
+
+\begin_layout Standard
+Pemrograman Android didasarkan pada bahasa pemrograman Java.
+ Pembuatan package, deklarasi import, pembuatan object, class, maupun method
+ sama seperti Java pada dekstop.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Package
+\shape default
+, merupakan perintah Java yang digunakan untuk memberitahukan bahwa suatu
+ class adalah anggota dari package, sedangkan nama package dapat berupa
+ susunan direktori tempat dimana file class disimpan atau nama folder.
+ Penulisan nama package dalam Java biasanya diawali dengan huruf kecil.
+\begin_inset Newline newline
+\end_inset
+
+Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Package <namapackage>.<subpackage>.<subsubpackage>;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Import
+\shape default
+, digunakan untuk memberitahukan kepada program untuk mengacu pada class-class
+ yang terdapat pada package tersebut dan buka menjalankan class-class tersebut.
+\begin_inset Newline newline
+\end_inset
+
+Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Import Android.<package>.<subpackage>.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Object
+\shape default
+, merupakan reperesentasi semua benda yang ada di dunia nyata.
+ 
+\shape italic
+Object
+\shape default
+ adalah bagaian atau isi dari sebuah class, dan satu class dapat mempunyai
+ lebih dari satu objek.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Class
+\shape default
+, merupakan bagian terkecil dari kode di Java yang bisa berdiri sendiri.
+ Setiap kali kita akan membuat sebuah kode Java, yang pertama harus dideklarasik
+an adalah class.
+\begin_inset Newline newline
+\end_inset
+
+Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+[access modifier] [static] class <nama class> {
+\end_layout
+
+\begin_layout Plain Layout
+
+isi class
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Method
+\shape default
+, merupakan tingkah laku atau behavior dari objek.
+ 
+\shape italic
+Method
+\shape default
+ terdiri dari sekumpulan kode yang diberi nama dan mempunyai parameter sebagai
+ 
+\shape italic
+input
+\shape default
+ serta nilai kembalian sebagai 
+\shape italic
+output
+\shape default
+.
+ Suatu 
+\shape italic
+method
+\shape default
+ dapat dipanggil oleh 
+\shape italic
+class
+\shape default
+ tempat didefinisikannya ataupun 
+\shape italic
+class
+\shape default
+ lain.
+\begin_inset Newline newline
+\end_inset
+
+Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+[access modifier] <return type> <nama>([parameter]){
+\end_layout
+
+\begin_layout Plain Layout
+
+		 //definisi method 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Tipe Data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Primitive, merepresentasikan nilai tunggal dan didefinisikan oleh bahasa
+ Java.
+ Contoh : byte, int, short, long, float.
+\end_layout
+
+\begin_layout Enumerate
+Reference, dapat menampung nol atau lebih nilai primitif atau object, dan
+ merupakan tipe data yang didefinisikan oleh user.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\shape italic
+Access Modifier
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Default, tipe yang hanya class dalam package yang sama yang memiliki hak
+ akses terhadap variabel dan methods dalam class.
+\end_layout
+
+\begin_layout Enumerate
+Public, bisa diakses oleh class manapun.
+ Akses Public adalah class member untuk diakses baik dari dalam dan luar
+ class.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Private, pengaksesan class hanya dapat diakses oleh class dimana tipe ini
+ dibuat.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Protected, mengijinkan class member untuk diakses oleh method dalam class
+ tersebut dan elemen – elemen subclass.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Struktur perulangan
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For loop, Pernyataan for loop memiliki kondisi hampir mirip seperti struktur
+ pengulangan sebelumnya yaitu melakukan pengulangan untuk mengeksekusi kode
+ yang sama sebanyak jumlah yang telah ditentukan.
+ Bentuk umum : 
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+for (Inisialisasi; Seleksi kondisi; iterasi){
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+While loop, Pernyataan while loop adalah pernyataan atau blok pernyataan
+ yang diulang-ulang sampai mencapai kondisi yang cocok.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+while( boolean_expression ){
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Do While, mirip dengan while-loop.
+ Pernyataan di dalam akan dieksekusi beberapa kali selama kondisi bernilai
+ benar(true).
+ do-while loop Perbedaan antara while dan do-while loop adalah dimana pernyataan
+ di dalam do-while loop akan dieksekusi sedikitnya satu kali.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+do{
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+} while( boolean_expression );
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Struktur percabangan
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Statement if, Pernyataan if akan menentukan sebuah pernyataan (atau blok
+ kode) yang akan eksekusi jika dan hanya jika persyaratan bernilai benar(true).
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+if( boolean_expression ){
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+}else{
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Statement switch Cara lain untuk membuat cabang adalah dengan menggunakan
+ kata kunci switch.
+ Switch mengkonstruksikan cabang untuk beberapa kondisi dari nilai.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+switch( switch_expression ){
+\end_layout
+
+\begin_layout Plain Layout
+
+case <kondisi 1>:
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	break;
+\end_layout
+
+\begin_layout Plain Layout
+
+case <kondisi n>:
+\end_layout
+
+\begin_layout Plain Layout
+
+	statementn;
+\end_layout
+
+\begin_layout Plain Layout
+
+	break;
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Extensible Markup Language
 \end_layout
@@ -3187,11 +3823,13 @@ XML untuk Android pada dasarnya berbeda dengan XML secara umum.
  Pada XML untuk Android, beberapa nama tag telah didefinisikan oleh Android
  SDK, sedangkan XML pada umumnya penulisan nama tag dapat dilakukan sesuai
  keinginan.
- Berikut ini adalah beberapa tag XML pada Android yang sering digunakan.
+ Bentuk tag XML pada Android yang sering digunakan dapat dilihat pada tabel
+ 2.1.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -3214,7 +3852,7 @@ Tag XML pada Android
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="left" valignment="top">
+<column alignment="left" valignment="top" width="8.5cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3472,8 +4110,11 @@ Application Programming Interface
 \begin_layout Standard
 Application Programming Interface (API) adalah sebuah bahasa dan format
  pesan yang digunakan oleh program aplikasi untuk berkomunikasi dengan system
- operasi atau program pengendalian lainnnya seperti Database Management
- System (DBMS) atau komunikasi protokol.
+ operasi atau program pengendalian lainnnya seperti 
+\shape italic
+Database Management System
+\shape default
+ (DBMS) atau komunikasi protokol.
  API diimplementasikan dengan menulis fungsi panggilan atau sintaks dalam
  program, yang menyediakan sarana yang diperlukan untuk meminta layanan
  program.
@@ -3501,10 +4142,7 @@ JavaScript Object Notation (JSON) adalah format pertukaran data yang ringan,
  jenis bahasa pemrograman.
  Sehingga memudahkan para pengembang untuk melakukan pertukaran data pada
  aplikasinya.
-\end_layout
-
-\begin_layout Standard
-JSON menggunakan bentuk atau struktur sebagai berikut :
+ JSON menggunakan bentuk atau struktur sebagai berikut :
 \end_layout
 
 \begin_layout Enumerate
@@ -3615,108 +4253,1394 @@ status open
 \end_layout
 
 \begin_layout Section
-PHP
-\end_layout
-
-\begin_layout Section
-CodeIgniter
-\end_layout
-
-\begin_layout Section
-MySQL
-\end_layout
-
-\begin_layout Section
 HTML
+\end_layout
+
+\begin_layout Standard
+Hypertext Markup Language (HTML) adalah sebuah bahasa markah yang digunakan
+ untuk membuat sebuah halaman web, menampilkan berbagai informasi di dalam
+ sebuah penjelajah web Internet dan pemformatan hiperteks sederhana yang
+ ditulis dalam berkas format ASCII agar dapat menghasilkan tampilan wujud
+ yang terintegerasi.
+ Dengan kata lain, berkas yang dibuat dalam perangkat lunak pengolah kata
+ dan disimpan dalam format ASCII normal sehingga menjadi halaman web dengan
+ perintah-perintah HTML.
+ Bermula dari sebuah bahasa yang sebelumnya banyak digunakan di dunia penerbitan
+ dan percetakan yang disebut dengan SGML (Standard Generalized Markup Language),
+ HTML adalah sebuah standar yang digunakan secara luas untuk menampilkan
+ halaman web.
+ HTML saat ini merupakan standar Internet yang didefinisikan dan dikendalikan
+ penggunaannya oleh World Wide Web Consortium (W3C).
+ HTML dibuat oleh kolaborasi Caillau TIM dengan Berners-lee Robert ketika
+ mereka bekerja di CERN pada tahun 1989 (CERN adalah lembaga penelitian
+ fisika energi tinggi di Jenewa).
+\end_layout
+
+\begin_layout Standard
+Dalam penulisan HTML, ada struktur dasar yang biasa dipakai untuk membuat
+ halaman web.
+ Dengan menggunakan elemen HTML yang dimulai dengan tag awal yang diikuti
+ dengan isi elemen, dan ditutup oleh tag akhir.
+ Bentuk-bentuk tag pada HTML dapat dilihat pada tabel 2.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tag HTML
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="top" width="8cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<!DOCTYPE>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag untuk menentukan tipe dokumen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<html>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag dasar yang menandakan dokumen yang merupakan dokumen HTML.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<title>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag yang berada di dalam Tag head untuk menuliskan judul web pada caption
+ web.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<body>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag untuk mengisikan isi dokumen web yang ingin ditampilkan sebagai halaman
+ web.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<p>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menyatakan paragraf
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<h1> to <h6>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag untuk membuat heading
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<br>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Memasukkan satu baris putus
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<img>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Untuk menyajikan gambar
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<form>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Untuk menangani formulir yang berguna untuk memasukkan data oleh pemakai
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<button>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag untuk membuat sebuag tombol yang dapat diklik
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<input>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Untuk membuat inputan dengan jenis type tertentu
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<div>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tag untuk membuat sebuah bagian dalam dokumen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 CSS
 \end_layout
 
-\begin_layout Section
-UML
+\begin_layout Standard
+CSS atau Cascading Style Sheet adalah suatu fasilitas untuk mempermudah
+ pemeliharaan sebuah halaman web, dengan menggunakan CSS sebuah halaman
+ web dapat diubah tampilannya tanpa harus mengubah dokumen HTML-nya.
+ Bentuk umum dalam penulisan CSS yaitu :
 \end_layout
 
 \begin_layout Standard
-Unified Modeling Language (UML) adalah himpunan struktur dan teknik untuk
- pemodelan desain program berorientasi objek (OOP) serta aplikasinya.
- UML merupakan sebuah bahasa yang telah menjadi standar dalam industri visualisa
-si, meracang, dan mendokumentasikan sistem perangkat lunak.
- Seperti bahasa pada umumnya, UML juga mendefinisikan notasi dan semantik.
- Notasi UML merupakan sekumpulan bentuk khusus untuk menggabarkan berbagai
- diagram, dan memiliki setiap bentuk memiliki makna tertentu.
- Sedangkan semantik mendefinisikan bagaimana bentuk tersebut dapat dikombinasika
-n.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Selector {
+\end_layout
+
+\begin_layout Plain Layout
+
+	property: value;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bagian selector untuk menentukan pada elemen atau tag HTML apa style tersebut
+ diterapkan.
+ Selector dapat berupa nama id elemen atau nama class.
+ Property dapat di isi dengan jenis warna, ukuran, perataan margin dan lain-lain
+, sedangkan value diisi dengan nilai dari property nya, misalnya red untuk
+ warna dan lain-lain.
+ Setiap akhir penulisan property dan value diakhiri dengan tanda titik koma
+ (semicolon).
+ Tanda ini juga digunakan sebagai pemisah antar satu property dengan property
+ lain.
+\end_layout
+
+\begin_layout Standard
+Jika value lebih dari sebuah kata, maka harus diapit dengan tanda kutip
+ ganda diantara value dan jika ingin menetapkan lebih dari satu property,
+ maka property harus dipisahkan dengan titik koma (semicolon).
+\end_layout
+
+\begin_layout Section
+PHP
+\end_layout
+
+\begin_layout Standard
+PHP atau Hypertext Preprocessor adalah bahasa server-side scripting yang
+ menyatu dengan HTML untuk membuat halaman web yang dinamis.
+ Karena PHP merupakan server-side scripting maka sintaks dan perintah-perintah
+ PHP akan dieksekusi di server kemudian hasilnya dikirimkan ke browser dalam
+ format HTML.
+ Dengan demikian kode program yang ditulis dalam PHP tidak akan terlihat
+ oleh user sehingga keamanan halaman web lebih terjamin.
+ PHP dirancang untuk membentuk suatu tampilan berdasarkan permintaan terkini,
+ seperti menampilkan isi basis data ke halaman web.
+\end_layout
+
+\begin_layout Standard
+PHP berada dibawah lisensi GPL sehingga kode sumber PHP dapat didistribusikan
+ secara bebas.
+ PHP berjalan pada web browser sehingga memungkinkan PHP dijalankan pada
+ platform yang berbeda.
+ PHP juga mampu diintegrasikan dengan banyak perangkat lunak DBMS seperti
+ MySQL, PostgreSQL, Microsoft SQL Server, Solid, Adabas, FilePro, Velocis,
+ dBase, Unix dbm dan semua database berinterface ODBC.
  
 \end_layout
 
-\begin_layout Chapter
-ANALISIS DAN PERANCANGAN
-\end_layout
-
-\begin_layout Section
-Perencanaan Aplikasi
+\begin_layout Subsection
+Cara Kerja PHP
 \end_layout
 
 \begin_layout Standard
-Pada penulisan ini, penulis merencanakan membuat aplikasi pelaporan untuk
- menyampaikan aspirasi masyarakat kota depok ke pemerintah setempat.
- Sebelum memulai pembuatan hal pertama yang harus dilakukan adalah menentukan
- platform dan bahasa pemrograman yang digunakan.
- Penulis memilih platform Android dengan bahasa pemrograman Java, dan websitenya
- menggunakan bahasa pemrograman PHP.
- Penulis memilih Android karena pada saat ini Android merupakan sistem operasi
- pada ponsel dengan jumlah pengguna terbanyak.
- Adapun fitur-fitur yang ingin dibuat pada aplikasi Android yaitu pembuatan
- laporan, fitur komentar pada laporan yang dibuat pengguna, tampilan laporan
- berdasarkan timeline, tampilan laporan pada peta, dan fitur melaporankan
- postingan bermasalah.
-\end_layout
-
-\begin_layout Section
-Analisis Kebutuhan
+Kode PHP disimpan sebagai plain text dalam format ASCII, sehingga kode PHP
+ dapat ditulis hampir disemua editor teks seperti, notepad, sublime text,
+ vi, emacs, windows wordpad, dan lain-lain.
+ Kode PHP adalah kode yang disertakan di sebuah halaman HTML dan kode tersebut
+ dijalankan oleh server sebelum dikirim ke browser.
+ Bentuk umum penulisan script PHP:
 \end_layout
 
 \begin_layout Standard
-Dalam pembuatan aplikasi dibutuhkan teks editor Sublime untuk membuat API
- dan Website dengan menggunakan bahasa pemrograman PHP dan Android Studio
- sebagai Integrated Development Environment (IDE) untuk membuat aplikasi
- pada perangkat Android dengan menggunakan bahasa pemrograman JAVA.
- Perangkat yang dibutuhkan untuk menjalankan Android Studio diantaranya
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<?php            
+\end_layout
+
+\begin_layout Plain Layout
+
+	pernyataan  
+\end_layout
+
+\begin_layout Plain Layout
+
+?>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dasar-dasar tentang penulisan komentar, tipe data, konstanta dan variabel
+ pada PHP sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+Komentar, yaitu bagian dari program yang berfungsi sebagai penjelas atau
+ pemberi keterangan dalam program.
+ Komentar ini tidak akan dieksekusi/dikerjakan oleh interpreter.
+ Untuk mendefinisikan komentar dipergunakan simbol-simbol karakter berikut
  :
 \end_layout
 
-\begin_layout Itemize
-Sistem operasi Windows / Linux / Mac OS X
+\begin_deeper
+\begin_layout Enumerate
+Dengan symbol dobel-slash(//), biasanya untuk komentar satu baris.
+ 
 \end_layout
 
-\begin_layout Itemize
-Memory RAM 2GB atau 8GB untuk performa maksimal
+\begin_layout Enumerate
+Diawali dengan symbol slash-asterik (/*) dan ditutup dengan asterik-slash(*/),
+ biasanya digunakan untuk memberikan komentar lebih dari satu baris.
+ Baris komentar tidak ditampilkan di halaman web browser karena komentar
+ akan diabaikan oleh interpreter.
 \end_layout
 
-\begin_layout Itemize
-Ruang kosong untuk penyimpanan 4GB
+\end_deeper
+\begin_layout Enumerate
+Tipe Data, PHP teridiri dari beberapa tipe data dasar seperti :
 \end_layout
 
-\begin_layout Itemize
-Minimal resolusi layar 1280 x 800
+\begin_deeper
+\begin_layout Enumerate
+Integer termasuk jenis data bilangan bulat.
 \end_layout
 
-\begin_layout Itemize
-Java Development Kit (JDK) 8
+\begin_layout Enumerate
+Double, termasuk jenis data bilangan pecahan/desimal.
 \end_layout
 
-\begin_layout Section
-Tahap Perancangan
+\begin_layout Enumerate
+Sedangkan string termasuk jenis data teks/untaian karakter
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Variabel, yaitu suatu pengenal dalam program yang berfungsi untuk menyimpan
+ nilai secara sementara dan dapat diubah-ubah nilai.
+ Untuk mendefinisikan variable, diawali dengan simbol karakter dollar(‘$’)
+ dan diikuti oleh nama pengenal.
+ Bentuk penulisan variabel pada php adalah 
+\begin_inset Quotes eld
+\end_inset
+
+$NamaPengenal = nilai;
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Adapun aturan dalam menyusun nama variabel adalah :
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tersusun dari karakter huruf, angka dan underscore(_) 
+\end_layout
+
+\begin_layout Enumerate
+Tidak boleh mengandung spasi 
+\end_layout
+
+\begin_layout Enumerate
+Karakter pertama nama pengenal harus dari karakter huruf atau underscore.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Huruf kecil dan besar dibedakan
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Konstanta, yaitu suatu tetapan nilai dalam program.
+ Konstanta tidak dapat dirubah nilai sewaktu program dijalankan, kalau hal
+ itu dilakukan akan menyebabkan error.
+ Untuk mendefinisikan konstanta digunakan 
+\begin_inset Quotes eld
+\end_inset
+
+define (NamaPengenal, nilai_konstanta);
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Statement Kontrol PHP
 \end_layout
 
 \begin_layout Standard
-Pada perancangan aplikasi dibuat menggunakan diagram Unified Modelling Language
- (UML).
- Jenis diagram yang akan digunakan untuk merancang aplikasi ini yaitu, Use
- Case Diagram, Activity Diagram, dan Class Diagram.
- Selain dengan UML juga dilakukan perancangan database dan antarmuka penggunanya.
+Statement kontrol yang dimiliki oleh PHP hampir sama dengan bahasa pemrograman
+ lain.
+ Struktur kontrol yang merupakan pengatur aliran program, berbentuk rangkaian
+ perintah yang harus ditulis untuk memenuhi beberapa keadaan,yaitu : Melanjutkan
+ sebuah pernyataan bila kondisi terpenuhi dan memilih sebuah pilihan dari
+ beberapa alternative bila kondisi terpenuhi.
+\end_layout
+
+\begin_layout Enumerate
+Statement IF, digunakan untuk melakukan percangan yang terdiri dari 1 atau
+ lebih kondisi.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+if (syarat1) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement2;
+\end_layout
+
+\begin_layout Plain Layout
+
+} elseif (syarat2) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement3;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement4;
+\end_layout
+
+\begin_layout Plain Layout
+
+} else {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement2;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+Jika syarat1 bernilai TRUE, maka statement1, statement2 dan seterusnya akan
+ dijalankan.
+ Sedangkan jika syarat1 FALSE maka selanjutnya akan dicek untuk syarat2.
+ Jika syarat2 TRUE maka statemen3, statement4, dan seterusnya akan dijalankan,
+ sedangkan jika syarat2 FALSE akan dicek syarat berikutnya (jika masih ada).
+ Statement1, statement2 dan seterusnya baru akan dijalankan apabila semua
+ syarat sebelumnya bernilai FALSE.
+\end_layout
+
+\begin_layout Enumerate
+Statement Switch, digunakan untuk melakukan percabangan dengan beberapa
+ kondisi tertentu.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+switch (variabel) {
+\end_layout
+
+\begin_layout Plain Layout
+
+case option1:
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement2;
+\end_layout
+
+\begin_layout Plain Layout
+
+	break;
+\end_layout
+
+\begin_layout Plain Layout
+
+case option2:
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement3;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement4;
+\end_layout
+
+\begin_layout Plain Layout
+
+	break;
+\end_layout
+
+\begin_layout Plain Layout
+
+default:
+\end_layout
+
+\begin_layout Plain Layout
+
+	statementdefault1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statementdefault2;
+\end_layout
+
+\begin_layout Plain Layout
+
+	break;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+Pada sintaks di atas, nilai dari variabel akan dicek pada setiap option
+ yang ada (terletak di bagian case).
+ Jika ada option yang sama dengan nilai variabel, maka statement-statement
+ di bawah option tersebutlah yang akan dijalankan.
+ Bagian default adalah optional (boleh ada, boleh tidak).
+\end_layout
+
+\begin_layout Enumerate
+Statement While, Statement ini digunakan untuk mengerjakan suatu statement
+ secara berulang-ulang sampai suatu syarat dipenuhi.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+while (syarat) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+Pada sintaks di atas, selama syarat bernilai TRUE maka statement-statement
+ di dalam while akan terus dijalankan secara berulang-ulang.
+ Perulangan baru akan berhenti apabila syarat bernilai FALSE.
+ Sebelum statement yang diulang-ulang dilakukan, terlebih dahulu akan dicek
+ syarat nya apakah bernilai TRUE atau FALSE.
+ Apabila TRUE maka statement akan dijalankan.
+ Sedangkan apabila FALSE, perulangan akan langsung berhenti.
+ Dengan kata lain, statement dalam WHILE bisa jadi tidak akan pernah dilakukan,
+ yaitu apabila syaratnya langsung bernilai FALSE.
+\end_layout
+
+\begin_layout Enumerate
+Statement For, digunakan untuk melakukan perulangan dengan batas tertentu.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+for (inisialisasi; syarat; increment/decrement) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Statement Foreach, digunakan jika data berupa array assosiatif yang akan
+ diproses secara berulang-ulang, maka PHP menyediakan statement foreach
+ yang mudah digunakan.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+foreach(variabelarray as kunci => value) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Statement Do While, statement ini merupakan bentuk modifikasi dari WHILE.
+ Prinsip kerja DO WHILE sama dengan WHILE yaitu statement akan terus dikerjakan
+ selama syarat bernilai TRUE dan perulangan akan berhenti apabila FALSE.
+ Bentuk umum :
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+do {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement;
+\end_layout
+
+\begin_layout Plain Layout
+
+}  while (syarat);
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+CodeIgniter
+\end_layout
+
+\begin_layout Standard
+CodeIgniter (CI) adalah framework opensource pengembangan aplikasi (Application
+ Development Framework) dengan menggunakan PHP dengan model MVC (Model,
+ View, Controller), suatu kerangka untuk bekerja atau membuat program dengan
+ menggunakan PHP yang lebih sistematis dan membuat website dinamis.
+ CI dikembangkan oleh Rick Ellis, selain codeigniter masih terdapat beberapa
+ framework php seperti cake, symphony, yii, zend dan prado.
+\end_layout
+
+\begin_layout Standard
+Tujuan dari pembuatan framework CI ini menurut petunjuk penggunaannya adalah
+ pemrogram tidak perlu membuat program dari awal (from scracth), karena
+ CI menyediakan sekumpulan library yang banyak diperlukan untuk menyelesaikan
+ pekerjaan yang umum, dengan menggunakan antarmuka dan struktur logika yang
+ sederhana untuk mengakses library-nya.
+ Pemrogram dapat memfokuskan diri pada kode yang harus dibuat untuk menyelesaika
+n suatu pekerjaan dan dapat lebih cepat dalam membuat suatu website.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ci-awal.png
+	lyxscale 50
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan awal Codeigniter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dalam paket distribusinya, framework codeigniter memiliki tiga direktori,
+ yaitu:
+\end_layout
+
+\begin_layout Enumerate
+Direktori application adalah direktori yang digunakan untuk menempatkan
+ file-file dari aplikasi yang akan di buat.
+\end_layout
+
+\begin_layout Enumerate
+Direktori system berisi daftar file kode yang disediakan oleh codeigniter,
+ yang diklasifikasikan berdasarkan fungsinya.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Libraries, berisi daftar file pustaka kelas standar yang disediakan oleh
+ Codeigniter.
+\end_layout
+
+\begin_layout Subsection
+Fitur Codeigniter
+\end_layout
+
+\begin_layout Standard
+Berikut ini adalah fitur-fitur yang terdapat pada Codeigniter:
+\end_layout
+
+\begin_layout Enumerate
+Sistem berbasis Model View Controller.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Kompatibel dengan PHP versi 4 dan versi 5.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Riangan dan cepat.
+\end_layout
+
+\begin_layout Enumerate
+Terdapat dukungan untuk berbagai basis data.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Mendukung Active Record Database.
+\end_layout
+
+\begin_layout Enumerate
+Mendukung form dan validasi data masukan.
+\end_layout
+
+\begin_layout Enumerate
+Tersedia pengaturan session.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Tersedia class untuk upload file.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Tersedia class untuk melakukan pagination.
+\end_layout
+
+\begin_layout Enumerate
+Mendukung enkripsi data.
+\end_layout
+
+\begin_layout Subsection
+Model View Controller
+\end_layout
+
+\begin_layout Standard
+Secara umum tujuan suatu aplikasi web adalah menampilkan informasi yang
+ diminta oleh pengguna.
+ Pengguna mengirimkan permintaannya melalui program browser ke web server,
+ web server akan melakukan pemrosesan atas permintan tersebut, kemudian
+ hasilnya akan dikirimkan kembali dan akan ditampilkan juga di program browser.
+ Berdasarkan mekanisme ini, aplikasi web dapat dibagi menjadi tiga bagian:
+\end_layout
+
+\begin_layout Enumerate
+Bagian yang berfungsi untuk mengintepretasikan permintaan dari pengguna
+ (HTTP Request).
+\end_layout
+
+\begin_layout Enumerate
+Bagian yang memodelkan problem domain atau bussines logic.
+\end_layout
+
+\begin_layout Enumerate
+Bagian yang mengelola tampilan yang akan dikirimkan ke pengguna.
+\end_layout
+
+\begin_layout Standard
+Dalam pemrograman aplikasi web yang menggunakan PHP terkadang ketiga bagian
+ program dicampur menjadi satu bagian.
+ Aplikasi web merupakan bagian yang sangat sering mengalami perubahan.
+ Seperti perubahan tampilan, layout, penambahan menu dan banyak lagi yang
+ tidak ada kaitannya atau tidak memberikan dampak pada logika dari aplikasi
+ web tersebut.
+ Dengan mencampur adukkan ketiga bagian tersebut maka setiap kali dilakukan
+ perubahan pada tampilan ada kemungkinan diperlukan juga perubahan pada
+ bagian logikanya.
+ Hal ini memperbesar kemungkinan timbulnya kesalahan pada aplikasi.
+ MVC adalah pola dasar yang memisahkan ketiga bagian program menjadi tiga
+ buah objek yang terpisah.
+\end_layout
+
+\begin_layout Standard
+Model merupakan representasi dari proses bisnis di dalam setiap aplikasi
+ perangkat lunak.
+ Model adalah bagian yang bertugas mengolah data mentah menjadi data yang
+ mengandung arti yang diinginkan oleh pengguna.
+ Model biasanya berhubungan langsung dengan database untuk memanipulasi
+ data, menangani validasi dari bagian controller, namun tidak dapat berhubungan
+ langsung dengan bagian view.
+\end_layout
+
+\begin_layout Standard
+View berhubungan dengan segala sesuatu yang akan ditampilkan ke end-user.
+ Bisa berupa halaman web, rss, javascript dan lain-lain.
+ Kita harus menghindari adanya logika atau pemrosesan data di view.
+ Di dalam view hanya berisi variabel-variabel berisi data yang siap ditampilkan.
+ View dapat dikatakan sebagai halaman website yang dibuat dengan menggunakan
+ HTML dan bantuan CSS atau JavaScript.
+ Di dalam view jangan pernah ada kode untuk melakukan koneksi ke basisdata.
+ View hanya dikhususkan untuk menampilkan data-data hasil dari model dan
+ controller.
+\end_layout
+
+\begin_layout Standard
+Controller pada dasarnya merupakan penerima tamu dari permintaan yang datang
+ (HTTP request).
+ Controller merupakan bagian yang mengatur hubungan antara bagian model
+ dan bagian view, controller berfungsi untuk menerima request dan data dari
+ user kemudian menentukan apa yang akan diproses oleh aplikasi.
+ View merupakan bagian yang menangani presentation logic.
+ Pada suatu aplikasi web bagian ini biasanya berupa file tamplate HTML,
+ yang diatur oleh controller.
+ View berfungsi untuk menerima dan merepresentasikan data kepada user.
+ Bagian ini tidak memiliki akses langsung terhadap bagian model.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename mvc.png
+	lyxscale 50
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Model View Controller
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+MySQL
+\end_layout
+
+\begin_layout Standard
+MySQL adalah salah satu jenis database server yang sangat terkenal dan banyak
+ digunakan untuk membangun aplikasi web yang menggunakan database sebagai
+ sumber dan pengelolaan datanya.
+ Kepopuleran MySQL antara lain karena MySQL menggunakan SQL sebagai bahasa
+ dasar untuk mengakses databasenya sehingga mudah untuk digunakan, kinerja
+ query cepat, dan mencukupi untuk kebutuhan database perusahaan-perusahaan
+ skala menengah-kecil.
+ MySQL merupakan database yang pertama kali didukung oleh bahasa pemrograman
+ script untuk internet (PHP dan Perl).
+ MySQL dan PHP dianggap sebagai pasangan perangkat lunak pengembangan web
+ yang ideal.
+\end_layout
+
+\begin_layout Standard
+SQL (
+\shape italic
+Structured Query Language
+\shape default
+) adalah bahasa yang digunakan untuk mengelola data pada RDBMS (
+\shape italic
+Relational Database Management System
+\shape default
+).
+ SQL awalnya dikembangkan berdasarkan teori aljabar relasional dan kalkulus.
+ SQL digunakan sebagai sebuah bahasa standar yang digunakan untuk mengelola
+ basis data yang resmi pada tahun 1986 oleh ANSI (
+\shape italic
+American National Standards Institute
+\shape default
+) pada tahun 1986 dan pada tahun 1987 disebut sebagai SQL-86 oleh ISO (
+\shape italic
+International Organization for Standardization
+\shape default
+).
+ Perintah SQL pada semua software database hampir sama.
+\end_layout
+
+\begin_layout Standard
+Terdapat 3 (tiga) jenis perintah SQL dalam DBMS MySQL, tetapi yang digunakan
+ penulisan ini hanya 2, yaitu :
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Data Definition Language 
+\shape default
+(DDL), DDL merupakan perintah SQL yang berhubungan dengan pendefinisian
+ suatu struktur database, dalam hal ini database dan table.
+ Beberapa perintah dasar yang termasuk DDL ini antara lain :
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\shape italic
+CREATE
+\shape default
+, digunakan untuk membuat database ataupun table.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+CREATE DATABASE nama_database;
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+CREATE TABLE nm_tabel (nm_col tipedata(ukuran));
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+ALTER
+\shape default
+, digunakan untuk memanipulasi atau mengelola struktur table yang telah
+ dibuat.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Alter table nm_tabel_lama rename nm_tabel_baru;
+\end_layout
+
+\begin_layout Plain Layout
+
+Alter table nm_tabel add nm_field tipe_data;
+\end_layout
+
+\begin_layout Plain Layout
+
+Alter table nm_tabel modify nm_field tipe_data;
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+DROP
+\shape default
+, digunakan untuk menghapus struktur dan definisi tipe data dari objek-objek
+ database.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+DROP DATABASE nama_database;
+\end_layout
+
+\begin_layout Plain Layout
+
+DROP TABLE nama_tabel;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\shape italic
+Data Manipulation Language
+\shape default
+ (DML), DML merupakan perintah SQL yang berhubungan dengan manipulasi atau
+ pengolahan data atau 
+\shape italic
+record
+\shape default
+ dalam table.
+ Perintah SQL yang termasuk dalam DML antara lain:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\shape italic
+SELECT
+\shape default
+, digunakan untuk menampilkan data yang telah dibuat.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Select * from nama_tabel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+INSERT, 
+\shape default
+digunakan untuk menambahkan data baru.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Insert into nm_tabel values (isi_field);
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+UPDATE, 
+\shape default
+digunakan untuk memperbarui data yang telah dibuat.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Update nm_tabel set nm_field=isi where kriteria;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+DELETE,
+\shape default
+ digunakan untuk menghapus data yang telah dibuat.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Delete from nama_tabel where kriteria;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+LAMPP
+\end_layout
+
+\begin_layout Standard
+LAMPP adalah istilah yang merupakan singkatan dari Linux, Apache, MySQL
+ dan Perl/PHP/Phyton.
+ Merupakan sebuah paket perangkat lunak bebas yang digunakan untuk menjalankan
+ sebuah aplikasi secara lengkap.
+ Fungsinya adalah sebagai server yang berdiri sendiri (
+\shape italic
+localhost
+\shape default
+), yang terdiri atas program 
+\shape italic
+Apache HTTP Server, MySQL database
+\shape default
+, dan penerjemah bahasa yang ditulis dengan bahasa pemrograman Perl/PHP/Phyton.
+ Program ini tersedia dalam GNU
+\shape italic
+ General Public License
+\shape default
+ dan bebas, merupakan web server yang mudah digunakan yang dapat melayani
+ tampilan halaman web yang dinamis.
+ Komponen-komponen dari LAMP adalah :
+\end_layout
+
+\begin_layout Enumerate
+Linux – sistem operasi
+\end_layout
+
+\begin_layout Enumerate
+Apache HTTP Server – web server
+\end_layout
+
+\begin_layout Enumerate
+MariaDB atau MySQL – sistem basis data
+\end_layout
+
+\begin_layout Enumerate
+PHP atau Perl atau Python – bahasa pemrograman yang dipakai 
+\end_layout
+
+\begin_layout Section
+Unified Modeling Language 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Unified Modeling Language
+\shape default
+ (UML) adalah himpunan struktur dan teknik untuk pemodelan desain program
+ berorientasi objek (OOP) serta aplikasinya.
+ UML merupakan sebuah bahasa yang telah menjadi standar dalam industri visualisa
+si, meracang, dan mendokumentasikan sistem perangkat lunak.
 \end_layout
 
 \begin_layout Subsection
@@ -3724,16 +5648,1287 @@ Use Case Diagram
 \end_layout
 
 \begin_layout Standard
-Use Case Diagram pada aplikasi ini menggambarkan interkasi yang dapat dilakukan
+Use Case diagram adalah model diagram UML yang digunakan untuk menggambarkan
+ requirement fungsional yang diharapkan dari sebuah sistem.
+ Use case diagram merupakan gambaran grafik dari beberapa atau semua actor,
+ Use case, dan interaksi diantara komponen-komponen tersebut yang memperkenalkan
+ suatu sistem yang akan dibangun.
+ Diagram ini menunjukkan fungsionalitas suatu sistem atau kelas dan bagaimana
+ sistem tersebut berinteraksi dengan dunia luar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Simbol-simbol Use Case Diagram 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="left" valignment="middle" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simbol
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/1.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Actor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menspesifikasikan himpuan peran yang pengguna mainkan ketika berinteraksi
+ dengan use case.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/6.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Association
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apa yang menghubungkan antara objek satu dengan objek lainnya.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/2.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dependency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hubungan dimana perubahan yang terjadi pada suatu elemen mandiri (independent)
+ akan mempengaruhi elemen yang bergantung padanya elemen yang tidak mandiri
+ (independent).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/4.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Include
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menspesifikasikan bahwa use case sumber secara eksplisit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/5.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extend
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menspesifikasikan bahwa use case target memperluas perilaku dari use case
+ sumber pada suatu titik yang diberikan.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename usecase/8.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Use Case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deskripsi dari urutan aksi-aksi yang ditampilkan sistem yang menghasilkan
+ suatu hasil yang terukur bagi suatu aktor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Activity Diagram
+\end_layout
+
+\begin_layout Standard
+Activity diagram merupakan diagram yang menggambarkan berbagai aktivitas
+ dalam sistem yang sedang dirancang, bagimana setiap alir berawal, decision
+ yang mungkin terjadi, dan bagaimana mereka berakhir.
+ Activity diagram juga dapat menggabarkan proses pararel yang mungkin terjadi
+ pada beberapa eksekusi.
+ Activity diagram merupakan state diagram khusus, dimana sebagian besar
+ state adalah action dan sebagian besar transisi dipengaruhi oleh state
+ sebelumnya.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Simbol-simbol Activity Diagram 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="left" valignment="middle" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simbol
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/1.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Initial Node
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bagaimana objek dibentuk atau diawali.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/2.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final Node
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bagaimana objek berakhir.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/3.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Action
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Memperlihatkan bagaimana masing-masing kelas antarmuka saling berinteraksi
+ satu sama lain
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/4s.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Control Flow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menggambarkan arah aktivitas yang mungkin terjadi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/6.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Swimeline
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Memecah activity diagram menjadi baris dan kolom untuk membagi tangung jawab
+ obyek-obyek yang melakukan aktivitas.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename act/5.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Decision
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pilihan untuk mengambil keputusan.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Class Diagram
+\end_layout
+
+\begin_layout Standard
+Class diagram adalah diagram yang menggambarkan struktur sistem dari segi
+ pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem.
+ kelas memiliki 3 bagian utama yaitu attribute, operation, dan name.
+ Class diagram digunakan untuk menampilkan kelas-kelas dan paket-paket di
+ dalam sistem.
+ Class diagram memberikan gambaran sistem secara statis dan relasi antar
+ mereka.
+ Biasanya, dibuat beberapa class diagram untuk sistem tunggal.
+ Beberapa diagram akan menampilkan subset dari kelas-kelas dan relasinya.
+ Dapat dibuat beberapa diagram sesuai dengan yang diinginkan untuk mendapatkan
+ gambaran lengkap terhadap sistem yang dibangun.
+ Class diagram adalah alat perancangan terbaik untuk tim pengembang.
+ Diagram tersebut membantu pengembang mendapatkan struktur sistem sebelum
+ kode ditulis, dan membantu untuk memastikan bahwa sistem adalah desain
+ terbaik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Simbol-simbol Class Diagram 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle">
+<column alignment="left" valignment="middle" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simbol
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename class/1.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Himpunan dari objek-objek yang berbagi atribut serta operasi yang sama.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename class/2.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Association
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apa yang menghubungkan antara objek satu dengan objek lainnya 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename class/3.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dependency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hubungan dimana perubahan yang terjadi pada suatu elemen mandiri (independent)
+ akan mempegaruhi elemen yang bergantung padanya elemen yang tidak mandiri
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+ANALISIS DAN PERANCANGAN
+\end_layout
+
+\begin_layout Standard
+Sebelum memasuki tahap analisis dan perancangan, maka perlu dilakukan perencanaa
+n aplikasi terlebih dahulu.
+ Hal ini dilakukan agar tidak terjadi kesalahan pada saat menganalisis dan
+ melakukan perancangan aplikasi.
+ Setelah melakukan perencanaan maka dilakukan tahap analisis yang mencakup
+ analisis kebutuhan perangkat lunak (
+\shape italic
+software
+\shape default
+) dan perangkat keras (
+\shape italic
+hardware
+\shape default
+), selain itu juga dilakukan analisis kebutuhan data yang nantinya akan
+ dibuat menjadi basis data (
+\shape italic
+database).
+
+\shape default
+ Pada tahap selanjutnya akan dilakukan perancangan sistem sesuai dengan
+ hasil perencanaan dan analisis.
+ Tujuan dari perancangan adalah untuk menghasilkan sistem yang dapat memenuhi
+ kebutuhan dan penyelesaian masalah secara tepat dan benar
+\end_layout
+
+\begin_layout Section
+Perencanaan Aplikasi
+\end_layout
+
+\begin_layout Standard
+Aplikasi “SOMAD” merupakan aplikasi mobile pada perangkat Android yang digunakan
+ untuk melaporkan atau menyampaikan aspirasi masyarakat.
+ Laporan yang dikirim masyarakat ditujukan ke pemerintah kota Depok guna
+ memperbaiki atau menambah fasilitas serta pelayanannya.
+ Dengan dibuatnya Aplikasi ini diharapkan dapat membantu masyarakat depok
+ untuk menyampaikan aspirasinya, sehingga kualitas pelayanan pemerintah
+ kota Depok ke masyarakat menjadi lebih baik.
+\end_layout
+
+\begin_layout Standard
+Pada aplikasi “SOMAD” laporan yang dikirim oleh masyarakat akan ditampilkan
+ dalam bentuk 
+\shape italic
+timeline
+\shape default
+ dan juga 
+\shape italic
+maps
+\shape default
+.
+ Sehingga masyarakat dapat melihat serta mengetahui laporan yang telah dikirim
+ oleh orang lain.
+ Setiap laporan yang dikirim dikelompokan berdasarkan kategori.
+ Kategori yang terdapat didalam aplikasi dapat ditambah atau diperbarui
+ oleh administrator.
+ Pada setiap laporan terdapat deskripsi dan lokasi kejadiannya, selain itu
+ pengguna juga dapat menambahkan gambar atau bukti foto.
+ Pengguna juga dapat mengomentari serta melaporkan setiap laporan yang telah
+ dikirim.
+ Selain itu pengguna juga dapat melihat berita terbaru yang dibuat oleh
+ pemerintah.
+\end_layout
+
+\begin_layout Standard
+Pada sisi admin akan dibuat halaman web administrator yang hanya dapat diakses
+ oleh admin.
+ Pada halaman web akan dibuat menu untuk mengelola pengguna, kategori, laporan,
+ 
+\shape italic
+feedback
+\shape default
+, komentar, dan berita.
+ Pada halaman 
+\shape italic
+dashboard
+\shape default
+ akan digunakan untuk menampilkan jumlah laporan yang telah masuk, laporan
+ baru, dan laporan selesai.
+ Selain itu juga akan ditampilkan 5 laporan terbaru dan 5 komentar terbaru.
+ Pada menu pengguna dibuat untuk melihat pengguna yang sudah terdaftar serta
+ fungsi untuk mencari, memperbarui, dan menghapus pengguna.
+ Pada menu kategori digunakan untuk menambah, memperbarui, serta menghapus
+ kategori.
+ Menu laporan digunakan untuk menampilkan daftar laporan yang masuk, tombol
+ untuk menyaring laporan pengguna berdasarkan kategori, pencarian berdasarkan
+ kata kunci tertentu, serta fungsi untuk memperbarui status laporan dan
+ tombol untuk menghapus laporan.
+ Menu 
+\shape italic
+feedback
+\shape default
+ digunakan untuk menampilkan laporan yang dikirim pengguna terhadap suatu
+ postingan laporan.
+ Menu komentar digunakan untuk melihat komentar yang masuk serta mencari
+ komentar berdasarkan kata kunci dan tombol menghapus komentar.
+\end_layout
+
+\begin_layout Section
+Analisis Kebutuhan
+\end_layout
+
+\begin_layout Standard
+Pada tahap ini dilakukan observasi dan studi pustaka untuk mengetahui apa
+ saja yang dibutuhkan untuk membuat aplikasi 
+\begin_inset Quotes eld
+\end_inset
+
+SOMAD
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Studi pustaka dilakukan untuk mengetahui aplikasi seperti apa yang akan
+ dibuat, fungsi-fungsi apa yang nantinya akan diterapkan pada aplikasi,
+ dan bahasa pemrograman apa yang cocok digunakan untuk membuat aplikasi.
+ Studi pustaka dilakukan dengan mempelajari buku-buku, literature-literatur,
+ artikel-artikel dan jurnal-jurnal yang berhubungan dengan aplikasi yang
+ akan dibuat.
+\end_layout
+
+\begin_layout Standard
+Berdasarkan hasil observasi dan studi pustaka maka data-data yang dibutuhkan
+ yaitu meliputi data pengguna, data kategori laporan, data laporan, data
+ 
+\shape italic
+feedback
+\shape default
+ dan komentar pengguna, serta berita.
+ Sedangkan kebutuhan perangkat lunak (
+\shape italic
+software
+\shape default
+) untuk membuat aplikasi Android dibutuhkan 
+\shape italic
+Integrated Development Environment
+\shape default
+ (IDE) Android Studio.
+ Selain itu juga dibutuhkan LAMPP sebagai 
+\shape italic
+local webserver
+\shape default
+ untuk menajalakan bahasa pemrograman PHP yang nantinya digunakan untuk
+ membuat halaman web administrator.
+ Dari sisi perangkat keras (
+\shape italic
+hardware
+\shape default
+) juga dibutuhkan sebuah komputer atau laptop yang dapat menajalankan perangkat
+ lunak tersebut.
+ Kebutuhan spesifikasi perangkat keras dapat dilihat pada gambar tabel 3.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spesifikasi Perangkat Keras
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="6cm">
+<column alignment="center" valignment="top" width="6cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Minimum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Yang digunakan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sistem operasi Windows / Linux / Mac OS X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sistem operasi Linux Ubuntu 16.04
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Memory RAM 2GB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Memory RAM 8GB
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Free Disk Space : 5 GB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Free Disk Space : 50 GB
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resolusi layar 1280 x 800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resolusi layar 1366 x 768
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Perancangan
+\end_layout
+
+\begin_layout Standard
+Setelah melakukan perencanaan dan analisis kebutuhan, maka tahap selanjutnya
+ adalah tahap peracangan aplikasi.
+ Pada tahap ini alur atau cara kerja aplikasi akan diracangkan menggunakan
+ diagram Unified Modelling Language (UML).
+ Jenis diagram yang akan digunakan untuk merancang aplikasi ini yaitu Use
+ Case Diagram, Activity Diagram, dan Class Diagram.
+\end_layout
+
+\begin_layout Subsection
+Perancangan UML
+\end_layout
+
+\begin_layout Subsubsection
+Use Case Diagram
+\end_layout
+
+\begin_layout Standard
+Use Case Diagram mendefinisikan apa saja yang dapat dilakukan oleh sistem
+ dan elemennnya, bukan bagaimana sistem dan elemennnya saling berinteraksi.
+ Use case diagram pada aplikasi ini menggambarkan aktivitas yang dapat dilakukan
  oleh pengguna dengan aplikasi.
- Diagram Use Case ini mendefinisikan apa yang dilakukan oleh sistem dan
- elemennnya, bukan bagaimana sistem dan elemennnya saling berinteraksi.
+ Pengguna yang merupakan masyarakat setempat dan administrator dari pemerintah
+ kota depok digambarkan sebagai aktor.
+ Untuk dapat menggunakan fitur-fitur pada aplikasi pengguna diwajibkan melakukan
+ login jika tidak memiliki akun maka dapat melakukan pendaftaran akun.
+ Setelah itu pengguna dapat membuat laporan, melihat daftar laporan yang
+ masuk, melakukan pencarian, membuat komentar pada laporan yang telah dibuat,
+ melihat komentar pada laporan, dan melaporkan laporan yang bermasalah.
+ Sedangkan pada sisi administrator dapat melakukan login melalui halaman
+ web.
+ Setelah itu administrator dapat mengelola pengguna, mengelola kategori,
+ mengelola laporan, mengelola komentar, dan mengelola 
+\shape italic
+feedback
+\shape default
+.
  Rancangan Use Case Diagram dapat dilihat pada gambar 3.1.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -3742,9 +6937,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename usecase.jpg
-	width 8cm
-	height 8cm
-	keepAspectRatio
+	lyxscale 60
+	width 14.3cm
 
 \end_inset
 
@@ -3768,32 +6962,46 @@ Use Case Diagram
 
 \end_layout
 
-\begin_layout Standard
-Pada gambar 3.1 menggambarkan interaksi antara pengguna dengan sistem, dimana
- terdapat 2 aktor yaitu pengguna dan admin.
- Sebelum menggunakan aplikasi pengguna wajib membuat akun terlebih dahulu
- kemudian login dengan menggunakan akun yang telah dibuat.
- Setelah itu pengguna dapat membuat laporan, melihat laporan yang telah
- masuk, menghapus laporan yang telah dibuatnya, dan mereport laporan yang
- bermasalah.
- Sedangkan admin dapat melihat laporan yang masuk, menghapus laporan yang
- telah dibuat, melihat komentar pengguna, melihat laporan yang di report
- oleh pengguna, memproses laporan yang masuk, dan mengubah status laporan.
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subsubsection
 Activity Diagram
 \end_layout
 
 \begin_layout Standard
-Diagram Activity menggambarkan berbagai aktivitas untuk dapat mengirim laporan
- sampai laporan di selesaikan.
+Activity Diagram menggambarkan berbagai alur aktivitas dalam sistem yang
+ dibangun, bagaimana masing-masing alir berawal, decision yang mungkin terjadi,
+ dan bagaimana mereka berakhir.
+ Pada Activity Diagram ini menggambarkan berbagai aktivitas yang dilakukan
+ untuk dapat mengirim laporan sampai laporan di selesaikan.
+ Pada saat pertama kali aplikasi dibuka atau 
+\shape italic
+initial state
+\shape default
+ aplikasi akan mengecek apakalah pengguna sudah login atau belum.
+ Jika sudah login maka akan diarahkan ke halaman utama, jika belum maka
+ akan diarahkan ke halaman login.
+ Apabila pengguna sudah memiliki akun maka langsung dapat melakukan login,
+ jika tidak maka pengguna dapat membuat akun kemudian akan di verifikasi
+ datanya oleh aplikasi.
+ Setelah berhasil login maka pengguna akan diarahkan ke halaman utama.
+ Setelah itu pengguna dapat membuat laporan, kemudian laporan akan di verifikasi
+ oleh aplikasi, jika data laporan sudah diisi dengan lengkap maka aplikasi
+ akan memasukan laporan ke 
+\shape italic
+database
+\shape default
+, kemudian ditampilkan ke pengguna.
+ Setelah itu laporan akan di proses oleh admin jika sudah selesai maka status
+ laporan dapat dirubah kemudian berakhir di 
+\shape italic
+final state
+\shape default
+.
  Rancangan Activity Diagram dapat dilihat pada gambar 3.2.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -3802,7 +7010,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename activity.jpg
-	scale 30
+	height 12cm
 
 \end_inset
 
@@ -3826,53 +7034,73 @@ Activity Diagram
 
 \end_layout
 
+\begin_layout Subsubsection
+Class Diagram
+\end_layout
+
 \begin_layout Standard
-Pada gambar 3.2 menggambarkan alur aktivitas pada aplikasi Depok Smart City.
- Pada saat pertama kali dibuka atau 
+Class Diagram menggambarkan hubungan struktur dan deskripsi class serta
+ hubungan kardinalitas antar class di setiap tabel yang terdapat pada basis
+ data.
+ Pada Class Diagram ini terdapat 6 class yaitu 
 \shape italic
-initial state
+category, user, post, feedback,
 \shape default
- pengguna akan diarahkan ke halaman login.
- Jika pengguna sudah memiliki akun pengguna langsung dapat melakukan login,
- jika tidak maka pengguna dapat membuat akun kemudian akan di verifikasi
- datanya oleh aplikasi.
- Setelah berhasil login maka pengguna dapat membuat laporan, kemudian laporan
- akan di verifikasi oleh aplikasi, jika laporan sudah di isi dengan lengkap
- maka pengguna dapat melihat laporannya di timeline maupun di peta.
- Setelah itu laporan akan di proses oleh admin jika sudah selesai maka status
- laporan dapat dirubah kemudian berakhir di 
+ 
 \shape italic
-final state
+comment
+\shape default
+, dan 
+\shape italic
+news
 \shape default
 .
-\end_layout
-
-\begin_layout Subsection
-Database
-\end_layout
-
-\begin_layout Standard
-Struktur database menggambarkan kumpulan data yang disimpan secara sistematis
- di dalam komputer yang dapat diolah atau dimanipulasi menggunakan perangkat
- lunak (program aplikasi) untuk menghasilkan informasi.
- Pada database menggambarkan relasi-relasi antar table, dimana terdapat
- 5 table yaitu user, category, post, report, dan comment.
- Pada table user terdapat data-data mengenai pengguna serta role, status,
- dan token pengguna.
- Pada table category berisi mengenai jenis-jenis laporan yang dapat dikirimkan
- oleh pengguna.
- Pada table post, berisi mengenai detail laporan pengguna berikut id kategori
- dan id user yang mengirim laporan.
- Pada table comment berisi mengenai komentar-komentar yang dikirim oleh
- pengguna terhadap suatu laporan.
- Pada table report berisi mengenai id laporan yang direport oleh pengguna
- dan pesannya.
- Rancangan database dapat dilihat pada gambar 3.3.
+ Pada tabel 
+\shape italic
+user 
+\shape default
+memiliki relasi 1..n terhadap tabel 
+\shape italic
+post
+\shape default
+, 
+\shape italic
+feedback
+\shape default
+, dan 
+\shape italic
+comment
+\shape default
+ artinya setiap pengguna dapat memiliki banyak postingan laporan, 
+\shape italic
+feedback
+\shape default
+ dan komentar.
+ Pada tabel 
+\shape italic
+category
+\shape default
+ memiliki relasi 1..n terhadap tabel 
+\shape italic
+post
+\shape default
+ yang berarti setiap category bisa terdapat banyak postingan dan setiap
+ postingan hanya memiliki satu 
+\shape italic
+category
+\shape default
+.
+ Sedangkan pada tabel 
+\shape italic
+news 
+\shape default
+tidak memiliki relasi terhadap tabel manapun.
+ Rancangan Class Diagram dapat dilihat pada gambar 3.3.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -3880,10 +7108,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename database.png
-	width 10cm
-	height 10cm
-	keepAspectRatio
+	filename class.jpg
+	width 12cm
 
 \end_inset
 
@@ -3894,7 +7120,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Rancangan Database
+Class Diagram
 \end_layout
 
 \end_inset
@@ -3905,23 +7131,2311 @@ Rancangan Database
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Rancangan Tampilan
-\end_layout
-
-\begin_layout Standard
-Interface (antarmuka) merupakan sarana berinteraksi antara pengguna dengan
- aplikasi.
- Antarmuka merupakan komponen yang berhubungan seacara langsung dengan penguna.
- Pembuatan antarmuka harus dibuat menarik dan memudahkan pengguna dalam
- berinteraksi dengan aplikasi.
- Rancangan antarmuka pada aplikasi Depok Smart City terdiri dari racangan
- halaman login.
 \end_layout
 
 \begin_layout Subsection
+Perancangan Basis Data
+\end_layout
+
+\begin_layout Standard
+Basis data atau database menggambarkan kumpulan data yang disimpan secara
+ sistematis di dalam komputer yang dapat diolah atau dimanipulasi menggunakan
+ perangkat lunak atau aplikasi untuk menghasilkan informasi.
+ Jenis database yang akan digunakan pada aplikasi adalah MySQL.
+ Selain gratis MySQL juga sudah mendukung relasi antar tabel, sehingga memudahka
+n dalam pengelolaan data.
+ Pembuatan basis data menggunakan MySQL dapat dilakukan melalui PhpMyAdmin
+ yang sudah tersedia di dalam LAMPP.
+ Untuk mengakses PhpMyAdmin dapat mengetikan 
+\begin_inset Quotes eld
+\end_inset
+
+http://localhost/phpmyadmin/
+\begin_inset Quotes erd
+\end_inset
+
+ pada URL di 
+\shape italic
+browser
+\shape default
+.
+ Keuntungan menggunakan PhpMyAdmin adalah pengguna tidak perlu mengetikan
+ 
+\shape italic
+query
+\shape default
+ SQL pada saat membuat basis data dan tabel sehingga dapat mempermudah dan
+ mempercepat pembuatannya.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename phpmyadmin.png
+	lyxscale 50
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan PhpMyAdmin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel User
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+user
+\shape default
+ digunakan untuk menampung data pengguna yang telah mendaftarkan akun.
+ Pada tabel user akan didefinisikan data-data yang berkaitan dengan informasi
+ pengguna.
+ Sebagai pembeda antar pengguna digunakan id dan email, dimana id akan dibuat
+ sebagai p
+\shape italic
+rimary key 
+\shape default
+dan
+\shape italic
+ auto increment 
+\shape default
+(otomatis bertambah) sehingga tidak mungkin ada pengguna yang memiliki id
+ sama.
+ Selain itu setiap email yang didaftarkan haruslah bersifat 
+\shape italic
+unique
+\shape default
+ sehingga email yang sama tidak dapat didaftarkan kedalam akun yang berbeda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table User
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+email
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unique
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+password
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+phone_no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+avatar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+role
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+status
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+token
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel Category
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+category
+\shape default
+ digunakan untuk menampung data category yang telah dibuat oleh administrator.
+ Pada tabel ini akan di definisikan data-data yang berkaitan dengan kategori
+ laporan.
+ 
+\shape italic
+Primary key
+\shape default
+ pada tabel ini adalah 
+\shape italic
+field
+\shape default
+ id yang dibuat 
+\shape italic
+auto increment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table Category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+text
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+icon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel Post
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+post
+\shape default
+ digunakan untuk menampung data laporan yang telah dikirim oleh pengguna.
+ Pada tabel ini akan di definisikan data-data yang berkaitan dengan informasi
+ laporan yang dikirim oleh pengguna.
+ 
+\shape italic
+Primary key
+\shape default
+ pada tabel ini adalah 
+\shape italic
+field
+\shape default
+ id yang dibuat 
+\shape italic
+auto increment
+\shape default
+.
+ Pada tabel ini terdapat
+\shape italic
+ foregin key
+\shape default
+ pada
+\shape italic
+ field
+\shape default
+ user_id, dan
+\shape italic
+ 
+\shape default
+category_id yang digunakan untuk dapat merelasikan ke tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+category.
+
+\shape default
+ Foreign key digunakan sebagai kunci untuk men-join tabel 
+\shape italic
+post
+\shape default
+ terhadap tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+category
+\shape default
+ guna mendapatkan informasi yang terdapat pada tabel tersebut.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table Post
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+user_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+category_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+text
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+file_name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+address
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+longitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+status
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+int
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+created_at
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+datetime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel 
+\shape italic
+feedback
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+feedback
+\shape default
+ digunakan untuk menampung data laporan yang dikirim pengguna terhadap suatu
+ laporan.
+ Pada tabel ini akan di definisikan data-data yang berkaitan dengan informasi
+ 
+\shape italic
+feedback
+\shape default
+ (umpan balik) pengguna terhadap laporan yang bermasalah.
+ 
+\shape italic
+Primary key
+\shape default
+ pada tabel ini adalah 
+\shape italic
+field
+\shape default
+ id yang dibuat 
+\shape italic
+auto increment
+\shape default
+.
+ Pada tabel ini terdapat
+\shape italic
+ foregin key
+\shape default
+ pada
+\shape italic
+ field
+\shape default
+ user_id, dan
+\shape italic
+ 
+\shape default
+post_id yang digunakan untuk dapat merelasikan ke tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+post.
+
+\shape default
+ Foreign key digunakan sebagai kunci untuk men-join tabel 
+\shape italic
+feedback
+\shape default
+ terhadap tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+post
+\shape default
+ guna mendapatkan informasi yang terdapat pada tabel tersebut.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table feedback
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+post_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+user_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+message
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+text
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+created_at
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+datetime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel Comment
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+comment
+\shape default
+ digunakan untuk menampung data komentar yang dikirimkan oleh pengguna terhadap
+ suatu laporan.
+ Pada tabel ini akan di definisikan data-data yang berkaitan dengan isi
+ komentar yang dikirim oleh pengguna.
+ 
+\shape italic
+Primary key
+\shape default
+ pada tabel ini adalah 
+\shape italic
+field
+\shape default
+ id yang dibuat 
+\shape italic
+auto increment
+\shape default
+.
+ Pada tabel ini terdapat
+\shape italic
+ foregin key
+\shape default
+ pada
+\shape italic
+ field
+\shape default
+ user_id, dan
+\shape italic
+ 
+\shape default
+post_id yang digunakan untuk dapat merelasikan ke tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+post.
+
+\shape default
+ Foreign key digunakan sebagai kunci untuk men-join tabel 
+\shape italic
+post
+\shape default
+ terhadap tabel 
+\shape italic
+user
+\shape default
+ dan 
+\shape italic
+post
+\shape default
+ guna mendapatkan informasi yang terdapat pada tabel tersebut.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table Comment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+post_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+user_id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foreign key
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+message
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+text
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+created_at
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+datetime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rancangan Tabel News
+\end_layout
+
+\begin_layout Standard
+Tabel 
+\shape italic
+news
+\shape default
+ digunakan untuk menampung data berita yang telah dibuat oleh administrator.
+ Pada tabel ini akan di definisikan data-data yang berkaitan dengan isi
+ berita yang dibuat oleh administrator.
+ 
+\shape italic
+Primary key
+\shape default
+ pada tabel ini adalah 
+\shape italic
+field
+\shape default
+ id yang dibuat 
+\shape italic
+auto increment
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Table News
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama 
+\shape italic
+Field
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panjang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keterangan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary key, Auto increment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+255
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+text
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+file_name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varchar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+created_at
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+datetime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Perancangan Antarmuka Pengguna
+\end_layout
+
+\begin_layout Standard
+Antarmuka Pengguna (User Interface) merupakan sarana berinteraksi antara
+ pengguna dengan aplikasi.
+ Pembuatan rancangan tampilan antarmuka pengguna diperlukan untuk memudahkan
+ dalam pembuatan 
+\shape italic
+layout 
+\shape default
+pada aplikasi.
+ Selain itu pembuatan rancangan juga diperlukan guna mengetehui tampilan
+ apa saja yang dibutuhkan agar semua fitur dalam perencanaan dapat berjalan
+ dengan baik.
+\end_layout
+
+\begin_layout Subsubsection
 Halaman Login
 \end_layout
 
@@ -3930,12 +9444,12 @@ Halaman login merupakan halaman yang digunakan pengguna untuk masuk ke dalam
  aplikasi dengan akun yang sudah di buatnya.
  Pada halaman login gambar statis, kolom input email dan password, tombol
  login, dan tombol daftar.
- Rancangan tampilan login dapat dilihat pada gambar 3.4.
+ Rancangan tampilan login dapat dilihat pada gambar 3.5.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -3944,7 +9458,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename login.jpg
-	width 4cm
+	height 4.5cm
 
 \end_inset
 
@@ -3968,7 +9482,7 @@ Rancangan Halaman Login
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Daftar
 \end_layout
 
@@ -3976,7 +9490,7 @@ Halaman Daftar
 Halaman daftar merupakan halaman yang digunakan pengguna untuk membuat akun.
  Pada halaman daftar terdapat kolom input email, password, nama, nomer telepon,
  tombol daftar, dan tombol login.
- Rancangan tampilan daftar dapat dilihat pada gambar 3.5.
+ Rancangan tampilan daftar dapat dilihat pada gambar 3.6.
 \end_layout
 
 \begin_layout Standard
@@ -4014,7 +9528,7 @@ Rancangan Halaman Daftar
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Timeline Laporan
 \end_layout
 
@@ -4023,7 +9537,7 @@ Halaman timeline laporan merupakan halaman yang pertama kali dilihat pengguna
  ketika sudah berhasil login.
  Pada tampilan ini, laporan ditampilkan dalam bentuk timeline berdasarkan
  urutan waktu dari yang terbaru hingga yang terlama.
- Rancangan tampilan timeline laporan dapat dilihat pada gambar 3.6.
+ Rancangan tampilan timeline laporan dapat dilihat pada gambar 3.7.
 \end_layout
 
 \begin_layout Standard
@@ -4061,7 +9575,7 @@ Rancangan Timeline Laporan
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Peta Laporan
 \end_layout
 
@@ -4070,7 +9584,7 @@ Halaman Peta Laporan merupakan halaman yang digunakan untuk melihat laporan
  di dalam peta.
  Pada tampilan ini laporan ditampilkan dalam bentuk marker sesuai lokasi
  laporan.
- Rancangan tampilan peta laporan dapat dilihat pada gambar 3.7.
+ Rancangan tampilan peta laporan dapat dilihat pada gambar 3.8.
 \end_layout
 
 \begin_layout Standard
@@ -4108,14 +9622,14 @@ Rancangan Peta Laporan
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Berita
 \end_layout
 
 \begin_layout Standard
 Halaman berita merupakan halaman yang berisi mengenai berita terbaru.
  Pada halaman ini ditampilkan berita yang dibuat oleh Pemerintah Kota Depok.
- Rancangan tampilan berita dapat dilihat pada gambar 3.8.
+ Rancangan tampilan berita dapat dilihat pada gambar 3.9.
 \end_layout
 
 \begin_layout Standard
@@ -4153,19 +9667,19 @@ Rancangan Berita
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Profile Pengguna
 \end_layout
 
 \begin_layout Standard
 Halaman profile pengguna merupakan halaman yang berisi mengenai informasi
  pengguna serta laporan yang telah dikirimnya.
- Rancangan tampilan profile pengguna dapat dilihat pada gambar 3.9.
+ Rancangan tampilan profile pengguna dapat dilihat pada gambar 3.10.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -4198,7 +9712,7 @@ Rancangan Halaman Login
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Halaman Web Administrator
 \end_layout
 
@@ -4206,12 +9720,12 @@ Halaman Web Administrator
 Halaman Web Administrator merupakan halaman yang digunakan untuk mengolah
  laporan yang masuk ke dalam system.
  Pada tampilan admin terdapat logo, menu, konten, dan footer.
- Rancangan tampilan web administrator dapat dilihat pada gambar 3.10.
+ Rancangan tampilan web administrator dapat dilihat pada gambar 3.11.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -4249,29 +9763,75 @@ Rancangan Halaman Web Administrator
 \end_layout
 
 \begin_layout Chapter
-PEMBAHASAN DAN IMPLEMENTASI
+IMPLEMENTASI DAN UJI COBA
 \end_layout
 
 \begin_layout Section
-Pembuatan Aplikasi
+Implementasi
 \end_layout
 
 \begin_layout Standard
-Depok Smart City merupakan aplikasi berbasis client server yang membutuhkan
- koneksi internet untuk pertukaran data.
- Pada sisi server terdapat website yang digunakan manajemen data dan 
+Tahap ini merupakan pembuatan pembuatan perangkat lunak yang disesuaikan
+ dengan hasil analisis dan perancangan sistem.
+ Aplikasi yang dibuat akan diterapkan berdasarkan kebutuhan.
+ Selain itu aplikasi juga dibuat sedemikian rupa sehingga dapat memudahkan
+ pengguna untuk menggunakan aplikasi Layanan Aduan Masyarakat ke Pemerintah
+ Kota Depok Berbasis Web dan Android.
+\end_layout
+
+\begin_layout Standard
+Hasil pengimplementasian penelitian ini menghasilkan aplikasi bernama SOMAD
+ yang merupakan aplikasi berbasis 
+\shape italic
+client server
+\shape default
+ dan membutuhkan koneksi internet untuk pertukaran data.
+ Pada sisi 
+\shape italic
+server
+\shape default
+ terdapat website yang digunakan web administrator untuk mengelola data
+ dan 
 \shape italic
 Application Programming Interface
 \shape default
- (API) yang digunakan untuk mengirim dan menerima data dari client.
- Pembuatan website dan API menggunakan bahasa pemrograman PHP dengan framework
+ (API) yang digunakan untuk perturakan data dengan 
+\shape italic
+client
+\shape default
+.
+ Pembuatan website dan API menggunakan bahasa pemrograman PHP dengan Framework
  CodeIgniter 3.
- Sedangkan pada sisi client terdapat aplikasi berbasis Android yang dibuat
- menggunakan bahasa pemrograman Java dengan 
+ Sedangkan pada sisi 
+\shape italic
+client
+\shape default
+ terdapat aplikasi berbasis Android yang dibuat menggunakan bahasa pemrograman
+ Java dengan 
 \shape italic
 Integrated Development Environment
 \shape default
  (IDE) Android Studio versi 2.3.
+\end_layout
+
+\begin_layout Standard
+Sebelum mengimplementasikan aplikasi ini, diperlukan 
+\shape italic
+web server
+\shape default
+ untuk dapat menjalankan aplikasi web yang digunakan sebagai 
+\shape italic
+server 
+\shape default
+dan 
+\shape italic
+handphone
+\shape default
+ dengan sistem operasi Android sebagai 
+\shape italic
+client
+\shape default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -4359,7 +9919,11 @@ $config['base_url'] = 'http://localhost/dsc/';
 .
  $config['base_url'] harus di isi dengan alamat path dari instalasi codeIgniter,
  sehingga pada saat aplikasi akses, maka akan diarahkan ke alamat tersebut.
- Setelah itu lakukan konfigurasi database yang terletak di direktori 
+ Setelah itu lakukan konfigurasi 
+\shape italic
+database
+\shape default
+ yang terletak di direktori 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4367,7 +9931,11 @@ application/config/database.php
 \begin_inset Quotes erd
 \end_inset
 
-, hal ini digunakan pada saat kita perlu untuk membuat koneksi ke database.
+, hal ini digunakan pada saat perlu untuk membuat koneksi ke 
+\shape italic
+database
+\shape default
+.
 \end_layout
 
 \begin_layout Standard
@@ -4392,7 +9960,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Konfigurasi Database
+Konfigurasi 
+\shape italic
+Database
 \end_layout
 
 \end_inset
@@ -4406,10 +9976,25 @@ Konfigurasi Database
 \end_layout
 
 \begin_layout Standard
-Pada konfigurasi database hostname diisi dengan alamat host database, pada
- kolom username dan password diisi dengan username dan password untuk mengakses
- database tersebut, dan pada database diisi dengan nama database.
- Setelah itu kita dapat mengkases 
+Pada konfigurasi database hostname diisi dengan alamat host 
+\shape italic
+database
+\shape default
+, pada kolom username dan password diisi dengan username dan password untuk
+ mengakses 
+\shape italic
+database
+\shape default
+ tersebut, dan pada 
+\shape italic
+database
+\shape default
+ diisi dengan nama 
+\shape italic
+database
+\shape default
+.
+ Setelah itu web dapat diakses melalui 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4462,8 +10047,15 @@ Pembuatan Aplikasi Android
 \end_layout
 
 \begin_layout Standard
-Pembuatan Aplikasi Android yang digunakan sebagai client menggunakan IDE
- Android Studio 2.3 sebagai Integrated Development Environment (IDE).
+Pembuatan Aplikasi Android yang digunakan sebagai 
+\shape italic
+client
+\shape default
+ menggunakan IDE Android Studio 2.3 sebagai 
+\shape italic
+Integrated Development Environment
+\shape default
+ (IDE).
  Tahap pertama yang harus dilakukan saat membuat aplikasi adalah membuat
  project baru yang dapat dilakukan dengan memilih 
 \shape italic
@@ -4492,7 +10084,7 @@ status open
 \begin_inset Graphics
 	filename android-1.png
 	lyxscale 50
-	width 8cm
+	width 10cm
 
 \end_inset
 
@@ -4519,9 +10111,19 @@ Pembuatan Project Baru
 \begin_layout Standard
 Setelah melakukan pembuatan projek baru, selanjutnya adalah tahap konfigurasi
  nama dan paket aplikasi.
- Application name merupakan nama dari aplikasi, sedangkan company domain
- dapat diisi dengan alamat domain perusahaan, jika tidak ada dapat diisi
- dengan app saja.
+ 
+\shape italic
+Application name
+\shape default
+ merupakan nama dari aplikasi, sedangkan 
+\shape italic
+company domain
+\shape default
+ dapat diisi dengan alamat 
+\shape italic
+domain
+\shape default
+ perusahaan, jika tidak ada dapat diisi dengan app saja.
 \end_layout
 
 \begin_layout Standard
@@ -4536,7 +10138,7 @@ status open
 \begin_inset Graphics
 	filename android-2.png
 	lyxscale 50
-	width 8cm
+	width 10cm
 
 \end_inset
 
@@ -4585,7 +10187,7 @@ status open
 \begin_inset Graphics
 	filename android-3.png
 	lyxscale 50
-	width 8cm
+	width 10cm
 
 \end_inset
 
@@ -4611,8 +10213,11 @@ Konfigurasi Minimum Requirement
 
 \begin_layout Standard
 Setelah itu adalah tahap pemilihan layout yang akan digunakan pada aplikasi.
- Pada tahap ini pilih layout Button Navigation Activity sebagai layout untuk
- halaman utama.
+ Pada tahap ini pilih layout 
+\shape italic
+Buttom Navigation Activity
+\shape default
+ sebagai layout untuk halaman utama.
 \end_layout
 
 \begin_layout Standard
@@ -4627,7 +10232,7 @@ status open
 \begin_inset Graphics
 	filename android-4.png
 	lyxscale 50
-	width 8cm
+	width 10cm
 	rotateOrigin center
 
 \end_inset
@@ -4654,9 +10259,23 @@ Konfigurasi Layout
 
 \begin_layout Standard
 Tahap terakhir adalah tahap penyesuaian activity, pada tahap ini terdapat
- kolom Activity Name yang digunakan untuk menentukan nama activity, kemudian
- Layout Name untuk menentukan nama layout, dan Title untuk menentukan judul
- acitivity.
+ kolom 
+\shape italic
+Activity Nam
+\shape default
+e yang digunakan untuk menentukan nama 
+\shape italic
+activity
+\shape default
+, kemudian 
+\shape italic
+Layout Name
+\shape default
+ untuk menentukan nama layout, dan 
+\shape italic
+Title
+\shape default
+ untuk menentukan judul acitivity.
 \end_layout
 
 \begin_layout Standard
@@ -4671,7 +10290,7 @@ status open
 \begin_inset Graphics
 	filename android-5.png
 	lyxscale 50
-	width 8cm
+	width 10cm
 	rotateOrigin center
 
 \end_inset
@@ -4683,7 +10302,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-KonfigurasiActivity
+Konfigurasi Activity
 \end_layout
 
 \end_inset
@@ -4703,7 +10322,7 @@ Setelah selesai menkonfigurasi project maka tampilan awal project dapat
 \shape italic
 project
 \shape default
- android, 
+ Android, 
 \shape italic
 text editor
 \shape default
@@ -4726,6 +10345,219 @@ status open
 \begin_inset Graphics
 	filename android-6.png
 	lyxscale 50
+	width 10cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Awal pada Android Studio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Web Hosting
+\end_layout
+
+\begin_layout Standard
+Hosting atau Web Hosting adalah penyewaan tempat untuk menampung data-data
+ yang diperlukan oleh sebuah website dan sehingga dapat diakses melaui Internet.
+ Data disini dapat berupa file, gambar, email, aplikasi/program/script dan
+ 
+\shape italic
+database
+\shape default
+.
+ Pada tahap web hosting ini penulis menggunakan web hosting dari 000webhost
+ yang dapat diakses pada 
+\begin_inset Quotes eld
+\end_inset
+
+https://www.000webhost.com/
+\begin_inset Quotes erd
+\end_inset
+
+, keutungan menggunakan webhosting ini adalah hosting gratis dan mendapatkan
+ subdomain 000webhostapp.com.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-1.png
+	lyxscale 50
+	width 10cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Web 000webhost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Langkah pertama untuk dapat layanan hosting gratis adalah dengan membuat
+ akun kemudian verifikasi akun melalui email.
+ Setelah itu pilih menu create new website, kemudian masukan website name
+ dan passwordnya.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-2.png
+	lyxscale 50
+	width 5cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan membuat website baru
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahap selanjutnya adalah membuat 
+\shape italic
+database
+\shape default
+ baru, kemudian pilih 
+\begin_inset Quotes eld
+\end_inset
+
+Manage -> PhpMyAdmin
+\begin_inset Quotes erd
+\end_inset
+
+ dan login menggunakan username dan password yang telah dibuat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-3.png
+	lyxscale 50
+	width 5cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan membuat 
+\shape italic
+database
+\shape default
+ baru
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah itu import 
+\shape italic
+database
+\shape default
+ dengan memilih menu import, klik browse dan pilih 
+\shape italic
+database
+\shape default
+, kemudian tekan go.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-4.png
+	lyxscale 50
 	width 8cm
 	rotateOrigin center
 
@@ -4738,7 +10570,182 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Konfigurasi Layout
+Tampilan 
+\shape italic
+Import
+\shape default
+ 
+\shape italic
+Database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah berhasil mengimport 
+\shape italic
+database
+\shape default
+, tahap selanjutnya adalah mengupload file website yang telah dibuat pada
+ local webserver dengan memilih menu file manager kemudian pilih upload
+ file now.
+ Setelah itu pilih menu upload files, pilih file yang sudah di zip, kemudian
+ tekan upload.
+ Setelah berhasil upload selanjutnya ekstrak file dengan cara klik kanan
+ extract.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-5.png
+	lyxscale 50
+	width 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan File Manager
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahap selanjutnya adalah melakukan konfigurasi ulang pada file config dan
+ 
+\shape italic
+database
+\shape default
+.
+ Pertama buka folder 
+\begin_inset Quotes eld
+\end_inset
+
+application -> config
+\begin_inset Quotes erd
+\end_inset
+
+ kemudian buka file config.php dan ubah konfigurasi base_url menjadi 
+\begin_inset Quotes eld
+\end_inset
+
+$config['base_url'] = 'http://depoksmartcity.000webhostapp.com';
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Selanjutnya pada file database.php ubah nama 
+\shape italic
+database
+\shape default
+, serta username dan password yang telah didaftarkan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-6.png
+	lyxscale 50
+	width 5cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Konfigurasi database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah selesai melakukan konfigurasi maka website sudah dapat diakses melaui
+ alamat 
+\begin_inset Quotes eld
+\end_inset
+
+http://depoksmartcity.000webhostapp.com
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hosting-7.png
+	lyxscale 50
+	width 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan awal
 \end_layout
 
 \end_inset
@@ -4756,15 +10763,354 @@ Uji Coba
 \end_layout
 
 \begin_layout Standard
+Uji coba dilakukan untuk melakukan pengujian terhadap aplikasi apakah sudah
+ sesuai dengan yang dirancang dan diharapkan sebelum digunakan untuk umum.
+ Uji coba pada emulator menggunakan
+\shape italic
+ Android Virtual Devices
+\shape default
+ (AVD) dan pada perangkat Android Xiaomi Redmi 1S.
+ Uji Coba dilakukan dengan cara me-
+\shape italic
+running
+\shape default
+ project yang dibuat dengan memilih menu 
+\begin_inset Quotes eld
+\end_inset
+
+Run -> Run App
+\begin_inset Quotes erd
+\end_inset
+
+ atau dapat menggunakan 
+\shape italic
+shortcut
+\shape default
+ Shift+F10.
+ Maka akan muncul pilihan target 
+\shape italic
+deployment
+\shape default
+, kemudian pilih target yang akan digunakan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-7.png
+	width 8cm
+
+\end_inset
+
 
 \end_layout
 
-\begin_layout Subsection
-Uji Coba Emulator
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pemilihan Target Deployment
 \end_layout
 
-\begin_layout Subsection
-Uji Coba Perangkat
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah itu maka Emulator Android akan berjalan dan menampilkan tampilan
+ aplikasi.
+ Pada saat pertama kali dijalankan maka aplikasi akan menampilkan tampilan
+ untuk login.
+ Apabila pengguna sudah memiliki akun maka langsung dapat memasukan email
+ dan passwordnya kemudian memilih tombol login.
+ Jika belum memiliki akun maka pengguna dapat memilih tombol register.
+ Pada tahap ini dilakukan pengujian login tanpa menggunakan 
+\shape italic
+email 
+\shape default
+dan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-8.png
+	lyxscale 50
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Login
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Jika pengguna memilih tombol register maka akan memunculkan tampilan untuk
+ mendaftarkan akun, pada tampilan ini terdapat kolom pengisian email, password,
+ nama, dan nomor telepon.
+ Jika pengguna sudah mengisi semua data yang diperlukan maka dapat memilih
+ tombol register.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-9.png
+	lyxscale 50
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Register
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apabila pengguna sudah melakukan login atau register maka akan diarahkan
+ ke tampilan utama, pada aplikasi ini tombol navigasi terletak disebelah
+ bawah, sedangkan toolbar terletak disebelah atas.
+ Pada tombol navigasi terdapat menu 
+\shape italic
+timeline, maps, 
+\shape default
+berita
+\shape italic
+, dan profil
+\shape default
+e.
+ Sedangkan pada toolbar terdapat tombol untuk pencarian laporan dan tombol
+ untuk logout.
+ Pada tampilan timeline akan menampilkan daftar laporan yang telah dibuat
+ dalam bentuk 
+\shape italic
+list
+\shape default
+ serta 
+\shape italic
+floating action button
+\shape default
+ untuk membuat laporan baru.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-10.png
+	lyxscale 50
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Timeline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tampilan Maps laporan ditampilkan dalam bentuk marker pada peta, pengguna
+ dapat melihat laporan disekitar mereka untuk menanggapi atau memberikan
+ komentar dengan memilih salah satu marker yang tersedia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-11.png
+	lyxscale 50
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Maps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tampilan Berita terdapat daftar berita yang dibuat oleh pemerintah
+ kota depok.
+ Pada tampilan ini terdapat judul berita, isi berita serta gambar apabila
+ tersedia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-12.png
+	lyxscale 50
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Berita
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tampilan Profile menampilkan data diri pengguna dan laporan yang telah
+ dibuatnya.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename android-13.png
+	lyxscale 50
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tampilan Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -4776,39 +11122,82 @@ Kesimpulan
 \end_layout
 
 \begin_layout Standard
-Berdasarkan hasil penelitian, maka ditunjukkan bahwa algortima singular
- untuk perhitungan .....
- dapat ditransformasikan kedalam alogorimta paralel GPU.
- Proses transformasi paralel berdasarkan distribusi tahap perhitungan kedalam
- blok pemrosesan di GPU.
- Implementasi library CUDA digunakan untuk pemrograman dengan menggunakan
- bahasa pemrograman C++.
- Hasil percobaan menunjukkan bahwa speed-up algoritma paralel terhadap algoritma
- singular rata-rata
+Berdasarkan penulisan yang telah dilakukan tentang 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Judul
 \end_layout
 
-\begin_layout Standard
-sebesar ....
- terhadap tingkat pertambahan jumlah data sebesar 
-\begin_inset Formula $10^{n}$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\series default
+ mengahasilkan sebuah aplikasi yang bernama SOMAD dan tampilan website yang
+ dapat di akses pada 
+\begin_inset Quotes eld
+\end_inset
+
+http://depoksmartcity.000webhostapp.com
+\begin_inset Quotes erd
 \end_inset
 
 .
- Sehingga dapat disimpulkan bahwa algoritma paralel GPU untuk perhitungan
- .....
- dapat digunakan untuk mempercepat waktu pemrosesan, khusunya untuk data
- yang berukuran sebesar 
-\begin_inset Formula $10^{x}$
-\end_inset
-
-.
-\begin_inset Formula 
-\[
-\]
-
-\end_inset
-
-
+ Pada aplikasi Android memiliki fitur 
+\shape italic
+login
+\shape default
+ dan 
+\shape italic
+registrasi
+\shape default
+, 
+\shape italic
+posting
+\shape default
+ laporan, melihat laporan secara 
+\shape italic
+timeline
+\shape default
+ dan 
+\shape italic
+maps
+\shape default
+, melihat berita, memberikan 
+\shape italic
+feedback
+\shape default
+ dengan melaporkan konten yang melanggar ketentuan hukum yang berlaku, dan
+ memberikan komentar terhadap laporan yang telah dibuat.
+ Sedangkan pada website terdapat fitur 
+\shape italic
+login
+\shape default
+, mengelola pengguna, mengelola kategori, mengelola laporan, mengelola komentar,
+ mengelola 
+\shape italic
+feedback
+\shape default
+, dan mengelola berita.
+ Berdasarkan hasil uji coba, aplikasi dapat diinstal pada semua perangkat
+ yang diujikan.
+ Dari segi tampilan layout aplikasi tidak mengalami perubahan yang signifikan.
+ Semua fitur pada aplikasi juga dapat berjalan dengan lancar pada semua
+ perangkat tersebut.
 \end_layout
 
 \begin_layout Section
@@ -4816,14 +11205,13 @@ Saran
 \end_layout
 
 \begin_layout Standard
-Penelitian ini telah menghasilkan sebuah contoh implementasi algoritma paralel
- GPU untuk perhitungan .....
- Tentu saja algoritma tersebut dapat ditingkatkan tingkat efisiensinya untuk
- menambah tingkat speed-up algoritma paralel.
- Diharapkan untuk penelitian selanjutnya dapat meneliti beberapa aspek perhitung
-an yang dapat diparalelkan kembali, ataupun menggunakan pendekatan algoritma
- paralel lainnya sehingga dapat meningkatkan pemanfaatan teknologi GPU.
- 
+Penelitian ini telah menghasilkan sebuah Aplikasi Android bernama SOMAD
+ serta website untuk mengelolanya.
+ Penulis berharap Aplikasi SOMAD dapat dikembangkan lebih baik lagi sehingga
+ performa dan keamanannya lebih terjamin.
+ Dari konten pelaporan dapat dibuat fitur untuk menambahkan rekaman video,
+ sedangkan dari segi keamanan token yang digunakan dapat diberi jangka waktu
+ kadaluarsa.
 \end_layout
 
 \begin_layout Standard
